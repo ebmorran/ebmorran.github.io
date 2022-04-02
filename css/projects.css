@@ -26,8 +26,8 @@
 
 #projects .card:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
-    transition: transform 0.3s;
-    transform: translateY(-7px);
+    transition: 0.3s;
+    background-color: ;
 }
 
 #projects .card .card-head {

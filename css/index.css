@@ -71,7 +71,6 @@ header .navbar {
 /* hero */
 
 #hero {
-    min-height: 100vh;
     line-height: 2rem;
     max-width: 100%;
 }
@@ -116,7 +115,7 @@ header .navbar {
     padding: 0;
     border: 0;
     border: 2px solid var(--secondary-color);
-    border-radius: 1rem;
+    border-radius: 100%;
 }
 
 #hero .image img:hover {
