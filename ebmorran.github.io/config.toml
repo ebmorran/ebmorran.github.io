@@ -1,4 +1,0 @@
-baseURL = 'https://ebmorran.github.io'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-profile'
