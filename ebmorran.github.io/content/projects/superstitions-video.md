@@ -3,7 +3,7 @@ title: "6 Crazy Superstitions From Around the World"
 date: 2022-04-02T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
-video: KmvonOKESzc
+video: a8NExXa_u2w
 description: ""
 socialShare: false
 toc:
