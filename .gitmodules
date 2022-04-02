@@ -1,0 +1,3 @@
+[submodule "ebmorran.github.io/hugo-profile"]
+	path = ebmorran.github.io/themes/hugo-profile
+	url = https://github.com/gurusabarish/hugo-profile.git
