@@ -97,7 +97,7 @@ params:
         image: /images/projects/profile.png
         featured:
           name: View
-          link: https://hugo-profile.netlify.app
+          link: /html_samples/pixel2.html
         badges:
            - "HTML"
         #   - "Bootstrap"
@@ -109,7 +109,7 @@ params:
         image: /images/video-title-card.png
         featured:
           name: Learn more
-          link: https://hugo-profile.netlify.app
+          link: /projects/superstitions-video/
         badges:
            - "Adobe Premiere"
            - "Adobe Illustrator"
