@@ -97,7 +97,7 @@ header .navbar {
 }
 
 #hero h3 {
-    font-size: clamp(40px, 8vw, 60px);
+    font-size: clamp(40px, 7vw, 60px);
     /* color: var(--primary-color) !important; */
     opacity: 0.5;
 }
@@ -525,4 +525,9 @@ header .navbar {
 
 #contact .btn:focus {
     box-shadow: none !important;
+}
+
+.social-icon {
+    padding-left: 10px;
+    padding-right: 10px;
 }
