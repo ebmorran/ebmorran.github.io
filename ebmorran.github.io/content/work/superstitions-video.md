@@ -19,17 +19,17 @@ Every country and culture has its own quirky beliefs. Many Canadians fear the nu
 
 Although this was a student project and it's a little rough around the edges, I include it here because it shows my ability to tell a story visually. I've never made a video before &mdash; or since. Despite that, I think it's pretty darn funny, and I'm proud of it!
 
-Read on to go behind the scenes. Find out the process behind this video, what I learned, and what I might do differently next time. 
+Read on to find out the process behind this video, what I learned, and what I might do differently next time. 
 
-## Concept & Narrative Development
+## Concept & Narrative
 
 The idea to make our video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk the superstitions. Instead, I developed the idea into brief, humorous illustrations of the superstitions' consequences.
 
-Quickly, we realized that our group represented 5 different nations. We had 3 international students (from Korea, Brazil and India) and 2 who were children of immigrant families in Canada (from Scotland and Jamaica). This happy coincidence suggested our format: each of us would would act out a belief from our home or ancestral country.
+Quickly, we realized our group represented five different nations. We had three international students (from Korea, Brazil and India) and two who were born into immigrant families in Canada (from Scotland and Jamaica). This happy coincidence suggested our format: each of us would act out a belief from our home or ancestral country.
 
-Along with these five superstitions, I wanted to show a sixth, Canadian superstition that would feature all five of us. Yes, this funny video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
+Along with these five, I wanted to show a sixth, Canadian superstition that would feature all five of us. Yes, this funny video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
 
-The next challenge was to choose 6 superstitions and distill them into less than 15-second video segments. I asked everyone to come up with a few superstitions from their home countries -- ideally ones they actually heard about or experienced at home. Using storyboards as a guide, I narrowed down potential choices based on how efficiently I could communicate them with few words. 
+The next challenge was to choose six interesting superstitions and distill them into video segments of less than 15 seconds. I asked everyone to come up with a few superstitions from their home countries. Using storyboards as a guide, I narrowed down potential choices based on how efficiently I could communicate them with few words. 
 
 <!---Raised in a Scottish-Canadian family, I grew up rolling my eyes at many weird and funny superstitions, but I knew which one I wanted to use: my grandma always scolded me that not even brand-new shoes can go on a table, or else you'll be "eating dirt." Almost immediately I was hit with the humorous image of coming home from buying shoes, only to go online and have my card declined while buying more shoes. 
 Myungki, of course, already had her superstition in hand, and luckily it was an easy one to script.  -->
@@ -50,6 +50,8 @@ For most of the superstitions, we didn’t have a list of what we needed
 Some of the footage had continuity issues or errors we couldn’t fix
 Lesson learned: keep to a schedule, plan in advance, have a list of everything you need to film and film it multiple times!
 Ad-libbed elements: the Swiffer broom, the thrown off beard.
+In the "broom" segment I sat behind the camera asking Myungki questions so that she'd be speaking continuously. She was answering in Korean so that she could babble without hesitation!
+Not having dialogue in the video made things so much easier. It was great not to have to worry about sound at all. We talked constantly throughout filming.
 
 
 ## Editing
