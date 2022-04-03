@@ -41,7 +41,7 @@ All five of us were new to acting &mdash; but goofy over-acting was part of this
 
 One acting tip I learned in class came back to haunt me in the editing: professional actors are aware of time and perform quickly. Amateurs hesitate. Visible examples of this are when Myungki hesitates between sitting up and dying in the Korea segment, or when I hesitate between sitting down, then getting up again the Scotland segment. Editing for time would have been easier had we rehearsed more to get through our beats quickly.
 
-Michael (representing Jamaica) turned out to be talented at ad libs. When we watched the "hockey game," he spontaneously ripped off his fake beard and threw it &mdash; a shot I knew we needed to leave in. When we needed to find a broom for his segment, he grabbed a Swiffer. I found this funnier than a regular broom, and encouraged him to stick with.
+Michael (representing Jamaica) turned out to be talented at ad libs. When we watched the "hockey game," he spontaneously ripped off his fake beard and threw it &mdash; a shot I knew we needed to leave in. When we needed to find a broom for his segment, he grabbed a Swiffer. I found this funnier than a regular broom, and encouraged him to stick with it.
 
 Not having dialogue in the video made production smoother. We didn't have to worry about sound, and we were able to talk and give instructions during filming. In the Jamaica segment, when Myungki is droning on and boring Michael, I sat behind the camera asking her questions. She was answering in Korean so that she could babble without hesitation!
 

@@ -137,7 +137,7 @@ params:
 
       - title: 6 Crazy Superstitions From Around the World
         content: A short, quirky video highlighting local superstitions in Korea, Scotland,
-                India, Brazil, Jamaica and Canada.
+                India, Brazil, Jamaica and Canada. An assignment completed in the Interactive Media Management program at Centennial college.
         image: /images/video-title-card-thumbnail.png
         featured:
           name: Learn more
@@ -151,8 +151,8 @@ params:
           - icon: fab fa-youtube
             url: https://youtu.be/KmvonOKESzc
       
-      - title: Abandoned cart flow
-        content: A series of abandoned cart re-engagement emails, which I wrote and designed myself using HTML, CSS and Canva.
+      - title: Orchard abandoned cart flow
+        content: A series of abandoned cart re-engagement emails for Orchard, which I wrote and designed myself using HTML, CSS and Canva.
         image: /images/abandoned-cart-thumbnail.png
         featured:
           name: Learn more
@@ -184,6 +184,18 @@ params:
         badges:
           - "Blog writing"
           - "Research"              
+
+      - title: 'JustGO: The carpool app for seniors'
+        content: A group assignment I completed in the Interactive Media Management program at Centennial college. The prompt was to design an app for seniors. I was responsible for the app concept, research, user flow, onboarding sequence and the written content of the presentation. I also contributed to the wire frames.
+        image: /images/justgo-thumbnail.png
+        featured:
+          name: View
+          link: /pdf_samples/JustGO-compressed.pdf
+        badges:
+           - "UX design"
+           - "Product design"
+           - "User research"
+           - "User flow"
 
       - title: Child Care Philosophy
         content: Every child care provider needs a guiding set of principles to determine their approach to early childhood education. This piece outlines some of the most common child care philosophies, and explains how to define your own.
