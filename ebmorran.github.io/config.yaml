@@ -139,6 +139,17 @@ params:
         # links:
         #  - icon: fab fa-github
         #    url: https://github.com/gurusabarish/converter
+        
+      - title: 4 Harmful Cat Myths We Need to Put To Rest
+        content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
+
+        image: /images/cat-myths-thumbnail.png
+        featured:
+          name: View
+          link: /pdf_samples/cat-myths.pdf
+        badges:
+          - "Blog writing"
+          - "Research"    
       
       - title: Abandoned cart flow
         content: A series of abandoned cart re-engagement emails, which I wrote and designed myself using HTML, CSS and Canva.
@@ -212,17 +223,6 @@ params:
         badges:
           - "Blog writing"
           - "Research"   
-
-      - title: 4 Harmful Cat Myths We Need to Put To Rest
-        content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
-
-        image: /images/cat-myths-thumbnail.png
-        featured:
-          name: View
-          link: /pdf_samples/cat-myths.pdf
-        badges:
-          - "Blog writing"
-          - "Research"    
 
   #Contact
   contact:
