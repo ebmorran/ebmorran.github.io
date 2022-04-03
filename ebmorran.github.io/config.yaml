@@ -1,6 +1,6 @@
 baseURL: "https://ebmorran.github.io"
 languageCode: "en-us"
-title: "Elizabeth Morran"
+title: "Elizabeth Morran: Portfolio"
 theme: hugo-profile
 enableRobotsTXT: true
 
@@ -33,9 +33,9 @@ Menus:
 
 params:
   title: "Elizabeth Morran"
-  description: Elizabeth Morran's creative portfolio
+  description: Elizabeth Morran's creative portfolio.
   favicon: "/fav.png"
-  # Separate browser favicon from this icon or find a new icon for this.
+
 
   theme:
     disableThemeToggle: false
@@ -113,7 +113,7 @@ params:
       - title: 6 Crazy Superstitions From Around the World
         content: A short, quirky video highlighting local superstitions in Korea, Scotland,
                 India, Brazil, Jamaica and Canada.
-        image: /images/video-title-card.png
+        image: /images/video-title-card-thumbnail.png
         featured:
           name: Learn more
           link: /work/superstitions-video/
@@ -142,15 +142,77 @@ params:
       
       - title: Abandoned cart flow
         content: A series of abandoned cart re-engagement emails, which I wrote and designed myself using HTML, CSS and Canva.
-        image: /images/projects/profile2.jpg
+        image: /images/abandoned-cart-thumbnail.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Learn more
+          link: /work/abandoned-carts/
         badges:
            - "Email copywriting"
            - "HTML"
            - "Image editing"
            - "Canva"
+
+      - title: 10 Early Childhood Behavior Management Strategies
+        content: An informative article guiding child care providers to 10 useful strategies for encouraging good behavior and managing bad behavior at the daycare center.
+        image: /images/phil-hearing-cylPETXS7is-unsplash.jpg
+        featured:
+          name: View
+          link: /pdf_samples/10behavior.pdf
+        badges:
+           - "Blog writing"
+           - "Research"      
+
+      - title: Are Cats Antisocial? The Science of Purrfect Feline Relations
+        content: Common perception holds that cats are cold, standoffish, selfish, even "furry
+                  sociopaths." But cats, while not as outgoing as dogs, are far more companionable than many people believe. This piece explores the science behind how cats socialize, both with other cats and with humans.
+
+        image: /images/cat-sociability-thumbnail.png
+        featured:
+          name: View
+          link: /pdf_samples/cat-sociability-science.pdf
+        badges:
+          - "Blog writing"
+          - "Research"              
+
+      - title: Child Care Philosophy
+        content: Every child care provider needs a guiding set of principles to determine their approach to early childhood education. This piece outlines some of the most common child care philosophies, and explains how to define your own.
+        image: /images/gabe-pierce-mLqWFEtlIEs-unsplash.jpg
+        featured:
+          name: View
+          link: /pdf_samples/childphilosophy.pdf
+        badges:
+          - "Blog writing"
+          - "Research"   
+
+      - title: 8 Benefits of Daycare
+        content: Parents have many good reasons for wanting to send their child to a daycare, but they may be wondering how daycare benefits their child. In this piece, I explore 8 benefits of attending daycare for young children.
+        image: /images/ryan-fields-Xz7MMD5tZwA-unsplash.jpg
+        featured:
+          name: View
+          link: /pdf_samples/8benefits.pdf
+        badges:
+          - "Blog writing"
+          - "Research"    
+
+      - title: Orchard Paybright FAQ
+        content: A FAQ page written to explain how financing works with Orchard.
+        image: /images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg
+        featured:
+          name: View
+          link: /pdf_samples/paybright.pdf
+        badges:
+          - "FAQ copywriting" 
+
+      - title: 4 Harmful Cat Myths We Need to Put To Rest
+        content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
+
+        image: /images/cat-myths-thumbnail.png
+        featured:
+          name: View
+          link: /pdf_samples/cat-myths.pdf
+        badges:
+          - "Blog writing"
+          - "Research"    
 
   #Contact
   contact:
