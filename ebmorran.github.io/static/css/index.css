@@ -73,6 +73,8 @@ header .navbar {
 #hero {
     line-height: 2rem;
     max-width: 100%;
+    background: url(/images/cover.jpg);
+    background-size: cover;
 }
 
 #hero .content {
