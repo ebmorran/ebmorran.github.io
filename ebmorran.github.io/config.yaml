@@ -39,7 +39,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -48,21 +48,21 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  # color:
-  #   textColor: 
-  #   secondaryTextColor: 
-  #   backgroundColor: 
-  #   secondaryBackgroundColor: 
-  #   primaryColor: 
-  #   secondaryColor: 
+  color:
+   textColor: 
+   secondaryTextColor: 
+   backgroundColor: 
+   secondaryBackgroundColor: 
+   primaryColor: "#b11226"
+   secondaryColor: 
 
-  #   darkmode:
-  #     textColor: 
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+  darkmode:
+   textColor: 
+   secondaryTextColor:
+   backgroundColor:
+   secondaryBackgroundColor:
+   primaryColor:
+   secondaryColor:
 
   # If you want to customize the menu, you can change it here
   # navbar:
