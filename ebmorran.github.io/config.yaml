@@ -203,6 +203,16 @@ params:
         badges:
           - "FAQ copywriting" 
 
+      - title: How to Decorate a Daycare Center
+        content: In this piece, I give child care providers actionable tips on how to decorate a well-organized, beautiful child care center that kids, parents and staff will love.
+        image: /images/gautam-arora-78Ae6N7rNvI-unsplash.jpg
+        featured:
+          name: View
+          link: /pdf_samples/decorate.pdf
+        badges:
+          - "Blog writing"
+          - "Research"   
+
       - title: 4 Harmful Cat Myths We Need to Put To Rest
         content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
 
