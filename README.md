@@ -1,6 +1,8 @@
 # ebmorran.github.io
 
+## Development
+Within the `ebmorran.github.io` directory:
+run `hugo server`, then connect to http://localhost:1313/
 
-To run a local test hugo server, use:
-`hugo server` inside of the `ebmorran.github.io` directory, then connect to
-http://localhost:1313/
+## Live Site
+https://ebmorran.github.io
