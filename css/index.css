@@ -105,8 +105,8 @@ header .navbar {
 #hero p {
     margin: 20px 0px 0px;
     max-width: 640px;
-    opacity: 0.8;
-    color: #eeeeee !important;
+    color: #cccccc !important;
+    font-weight: 550;
 }
 
 #hero .image img {
