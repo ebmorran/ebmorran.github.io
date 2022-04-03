@@ -109,7 +109,32 @@ params:
            - "Email copywriting"
            - "Image editing"
            - "HTML"      
-      
+
+      - title: Orchard newsletter signup introduction
+        content:  This is a post-signup email targeted at new subscribers to our mailing list. The goal here is to convey the value of our content, persuade the audience to open future emails and position Orchard as a knowledgeable expert in the smartphone industry.
+        image: /images/newsletter-thumbnail.png
+        featured:
+          name: View
+          link: /html_samples/our-story.html
+        badges:
+           - "Email copywriting"
+           - "Image editing"
+           - "Canva"
+        # links:
+        #  - icon: fab fa-github
+        #    url: https://github.com/gurusabarish/converter
+
+      - title: 4 Harmful Cat Myths We Need to Put To Rest
+        content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
+
+        image: /images/cat-myths-thumbnail.png
+        featured:
+          name: View
+          link: /pdf_samples/cat-myths.pdf
+        badges:
+          - "Blog writing"
+          - "Research"    
+
       - title: 6 Crazy Superstitions From Around the World
         content: A short, quirky video highlighting local superstitions in Korea, Scotland,
                 India, Brazil, Jamaica and Canada.
@@ -125,31 +150,6 @@ params:
         links:
           - icon: fab fa-youtube
             url: https://youtu.be/KmvonOKESzc
-
-      - title: Orchard newsletter signup introduction
-        content:  This is a post-signup email targeted at new subscribers to our mailing list. The goal here is to convey the value of our content, persuade the audience to open future emails and position Orchard as a knowledgeable expert in the smartphone industry.
-        image: /images/newsletter-thumbnail.png
-        featured:
-          name: View
-          link: /html_samples/our-story.html
-        badges:
-           - "Email copywriting"
-           - "Image editing"
-           - "Canva"
-        # links:
-        #  - icon: fab fa-github
-        #    url: https://github.com/gurusabarish/converter
-        
-      - title: 4 Harmful Cat Myths We Need to Put To Rest
-        content: Even though cats are some of the most popular pets, even cat owners tend to misunderstand. This piece scientifically debunks 4 common misconceptions about cats.
-
-        image: /images/cat-myths-thumbnail.png
-        featured:
-          name: View
-          link: /pdf_samples/cat-myths.pdf
-        badges:
-          - "Blog writing"
-          - "Research"    
       
       - title: Abandoned cart flow
         content: A series of abandoned cart re-engagement emails, which I wrote and designed myself using HTML, CSS and Canva.
