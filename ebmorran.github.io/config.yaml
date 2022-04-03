@@ -81,10 +81,19 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "hello"
+    intro: ""
     title: "Elizabeth Morran"
-    subtitle: "Writing portfolio"
-    content: "Lorem ipsum dolor sit amet."
+    subtitle: "Writing the “why.”"
+    content: 'My aim as a writer is to integrate purpose and insight, illuminating the "what"
+              for the sake of the "why."
+              With a keen eye for clarity and structure, I develop effective 
+              support content and persuasive email marketing copy. As a freelancer, 
+              I contributed in-depth, SEO-tuned articles to an inbound content
+              strategy for a childcare SaaS enterprise. 
+              <br><br>
+              As a Customer Service Team Lead, I have three years of experience manifesting
+              a consistent voice through concise, helpful content &mdash; in dozens of 
+              customer emails and chat interactions per day.'
     image: /images/me.jpg
     # Make title & subtitle font slightly smaller.
 
@@ -112,7 +121,7 @@ params:
         image: /images/video-title-card.png
         featured:
           name: Learn more
-          link: /projects/superstitions-video/
+          link: /work/superstitions-video/
         badges:
            - "Adobe Premiere"
            - "Adobe Illustrator"
@@ -136,7 +145,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
       
-      - title: Hugo Profile V2
+      - title: Test title
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
@@ -153,7 +162,7 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: ""
     email: e.b.morran@gmail.com
     btnName: Email me
 
