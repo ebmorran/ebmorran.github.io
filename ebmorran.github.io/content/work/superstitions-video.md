@@ -25,9 +25,9 @@ Read on to find out the process behind this video, what I learned, and what I mi
 
 The idea to make our video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk the superstitions. Instead, I developed the idea into brief, humorous illustrations of the superstitions' consequences.
 
-Quickly, we realized our group represented five different nations. We had three international students (from Korea, Brazil and India) and two who were born into immigrant families in Canada (from Scotland and Jamaica). This happy coincidence suggested our format: each of us would act out a belief from our home or ancestral country.
+Quickly, we realized our group represented five different nations, either by birth or recent ancestry. <!---We had three international students (from Korea, Brazil and India) and two who were born into immigrant families in Canada (from Scotland and Jamaica).-->This happy coincidence suggested our format: each of us would act out a belief from our home or ancestral country.
 
-Along with these five, I wanted to show a sixth, Canadian superstition that would feature all five of us. Yes, this funny video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
+Along with these five, I wanted to show a sixth, Canadian superstition that would feature all five of us. Yup, this silly video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
 
 The next challenge was to choose six interesting superstitions and distill them into video segments of less than 15 seconds. I asked everyone to come up with a few superstitions from their home countries. Using storyboards as a guide, I narrowed down potential choices based on how efficiently I could communicate them with few words. 
 
