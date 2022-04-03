@@ -100,18 +100,15 @@ params:
     enable: true
     items:
       - title: Orchard Pixel launch email
-        content: A marketing email I designed (based on a modified EmailOnAcid template) to
-                 announce Orchard's launch of the Pixel line of phones. I wrote
-                 the copy and edited royalty-free stock photos. 
-        image: /images/projects/profile.png
+        content: A marketing email I designed and wrote to announce Orchard's launch of the Pixel line of phones. I modified an EmailOnAcid template and edited royalty-free stock photos for visual unity. My goal was to distinguish the selling points of Pixels to our audience while capturing Orchard's unique value proposition. 
+        image: /images/pixel-thumbnail.png
         featured:
           name: View
           link: /html_samples/pixel2.html
         badges:
-           - "HTML"
-        #   - "Bootstrap"
-        #   - "Javascript"
-      
+           - "Email copywriting"
+           - "Image editing"
+           - "HTML"      
       
       - title: 6 Crazy Superstitions From Around the World
         content: A short, quirky video highlighting local superstitions in Korea, Scotland,
@@ -128,34 +125,32 @@ params:
         links:
           - icon: fab fa-youtube
             url: https://youtu.be/KmvonOKESzc
-        
 
-      - title: Image Converter
-        content:  A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Orchard newsletter signup introduction
+        content:  This is a post-signup email targeted at new subscribers to our mailing list. The goal here is to convey the value of our content, persuade the audience to open future emails and position Orchard as a knowledgeable expert in the smartphone industry.
+        image: /images/newsletter-thumbnail.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          name: View
+          link: /html_samples/our-story.html
+        badges:
+           - "Email copywriting"
+           - "Image editing"
+           - "Canva"
+        # links:
+        #  - icon: fab fa-github
+        #    url: https://github.com/gurusabarish/converter
       
-      - title: Test title
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: Abandoned cart flow
+        content: A series of abandoned cart re-engagement emails, which I wrote and designed myself using HTML, CSS and Canva.
         image: /images/projects/profile2.jpg
         featured:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+        badges:
+           - "Email copywriting"
+           - "HTML"
+           - "Image editing"
+           - "Canva"
 
   #Contact
   contact:
