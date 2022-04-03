@@ -105,7 +105,8 @@ params:
       
       
       - title: 6 Crazy Superstitions From Around the World
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        content: A short, quirky video highlighting local superstitions in Korea, Scotland,
+                India, Brazil, Jamaica and Canada.
         image: /images/video-title-card.png
         featured:
           name: Learn more
