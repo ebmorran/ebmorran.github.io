@@ -2,6 +2,8 @@ baseURL: "https://ebmorran.github.io"
 languageCode: "en-us"
 title: "Elizabeth Morran"
 theme: hugo-profile
+enableRobotsTXT: true
+
 
 markup:
   goldmark:
