@@ -23,43 +23,34 @@ Read on to find out the process behind this video, what I learned, and what I mi
 
 ## Concept & Narrative
 
-The idea to make our video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk the superstitions. Instead, I developed the idea into brief, humorous illustrations of the superstitions' consequences.
+The idea to make our video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk these myths. Instead, I developed the idea into brief, humorous illustrations of their consequences.
 
-Quickly, we realized our group represented five different nations, either by birth or recent ancestry. <!---We had three international students (from Korea, Brazil and India) and two who were born into immigrant families in Canada (from Scotland and Jamaica).-->This happy coincidence suggested our format: each of us would act out a belief from our home or ancestral country.
+Quickly, we realized our group represented five different nations, either by birth or recent ancestry. This happy coincidence suggested our format: each of us would act out a belief from our home or ancestral country.
 
-Along with these five, I wanted to show a sixth, Canadian superstition that would feature all five of us. Yup, this silly video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
+Along with these five, I wanted to show a sixth, Canadian superstition that would feature the whole group. Yup, this silly video secretly has a heartwarming message: we may come from different countries, but we are all Canadian.
 
-The next challenge was to choose six interesting superstitions and distill them into video segments of less than 15 seconds. I asked everyone to come up with a few superstitions from their home countries. Using storyboards as a guide, I narrowed down potential choices based on how efficiently I could communicate them with few words. 
+The next challenge was to choose six superstitions that could be distilled into visual sequences of less than 15 seconds. I asked everyone to come up with a few superstitions from their home countries. Using storyboards as a guide, I narrowed down potential choices based on how effectively I could communicate them with few words.
 
-<!---Raised in a Scottish-Canadian family, I grew up rolling my eyes at many weird and funny superstitions, but I knew which one I wanted to use: my grandma always scolded me that not even brand-new shoes can go on a table, or else you'll be "eating dirt." Almost immediately I was hit with the humorous image of coming home from buying shoes, only to go online and have my card declined while buying more shoes. 
-Myungki, of course, already had her superstition in hand, and luckily it was an easy one to script.  -->
-
-<!---Although Canada has its share of superstitions, it was difficult to find one that seemed to be uniquely Canadian. We settled on the "playoff beard" even though Americans seem to have adopted it too. This let us use the hilarious visual gag where all of us, even the girls, wore bushy fake beards to watch the hockey game.-->
+Once we chose the "playoff beard" belief for Canada, I came up with the twist that was the video's punchline: all the other superstitions "work" in the video, so the audience expects us to cheer happily for our winning team. But since we're Leafs fans, we're doomed to be disappointed.
 
 ## Production
-Professional actors are aware of time and perform quickly.
-Amateurs hesitate.
-Example: Myungki hesitates between sitting up and dying. Elizabeth hesitates between sitting down, then getting up.
-Good point: goofy expressions!
-What we’d do differently: rehearse and get our marks down pat.
-Getting the group together after that first day was VERY difficult.
-We should have started editing before we had all of our footage.
-We should have put more effort into scheduling.
-Our shoots were pretty ad-hoc and unplanned.
-For most of the superstitions, we didn’t have a list of what we needed.
-Some of the footage had continuity issues or errors we couldn’t fix.
-Lesson learned: keep to a schedule, plan in advance, have a list of everything you need to film and film it multiple times!
-Ad-libbed elements: the Swiffer broom, the thrown off beard.
-In the "broom" segment I sat behind the camera asking Myungki questions so that she'd be speaking continuously. She was answering in Korean so that she could babble without hesitation!
-Not having dialogue in the video made things so much easier. It was great not to have to worry about sound at all. We talked constantly throughout filming.
 
+The video was shot over three days in November 2019. We shot at Myungki's apartment, my apartment, and on the Centennial College campus. I assumed the role of director.
+
+All five of us were new to acting &mdash; but goofy over-acting was part of this video's charm. I think my teammates (and myself!) nailed the wacky facial expressions and exaggerated movements.
+
+One acting tip I learned in class came back to haunt me in the editing: professional actors are aware of time and perform quickly. Amateurs hesitate. Visible examples of this are when Myungki hesitates between sitting up and dying in the Korea segment, or when I hesitate between sitting down, then getting up again the Scotland segment. Editing for time would have been easier had we rehearsed more to get through our beats quickly.
+
+Michael (representing Jamaica) turned out to be talented at ad libs. When we watched the "hockey game," he spontaneously ripped off his fake beard and threw it &mdash; a shot I knew we needed to leave in. When we needed to find a broom for his segment, he grabbed a Swiffer. I found this funnier than a regular broom, and encouraged him to stick with it.
+
+Not having dialogue in the video made production smoother. We didn't have to worry about sound, and we were able to talk and give instructions during filming. In the Jamaica segment, when Myungki is droning on and boring Michael, I sat behind the camera asking her questions. She was answering in Korean so that she could babble without hesitation!
 
 ## Editing
-- My inspiration was weird "how to" videos from Instagram that demonstrate (questionable) DIY products with no dialogue, quirky music and flashy title cards. I wanted to capture that offbeat feel. 
-- In editing, I was severely constrained by the length of the music track. Unfortunately not all the jokes had enough time to land, and I did get feedback that the title cards were too fast to read. I wish I had edited the video first and chosen an appropriate music track afterward, or edited the track to make it longer.
-- I didn't realize that the "sped up" feeling of those Insta videos came from low frame rate rather than an actual speed boost!
-Since editing was left to the last minute, we didn’t have enough time to get to know our footage to make the judgments needed.
-Really hard to get it down under 1:45 (length of music track) and include all the title cards
-Unable to let the jokes “land” as much as wanted.
-Why did we do the title cards in Illustrator?! PowerPoint would have been easier and saved time.
-Next time, we’d start editing earlier, and rely on tools we’re already familiar with.
+
+My inspiration for tone was weird "how to" videos seen on the subreddit /r/DiWHY. These videos demonstrate (questionable) DIY projects with no dialogue, quirky music and flashy title cards. I wanted to capture that offbeat feeling. 
+
+Although I had no experience with video editing, the job landed in my lap. Considering my other responsibilities, time management became a problem, but I didn't mind being the one to execute my vision. I was also happy for the opportunity to learn to use Adobe Premiere.
+
+In editing, I was severely constrained by the length of the music track. Unfortunately, even after speeding up the footage, not all the jokes had enough time to land. I also heard feedback that the title cards moved too fast to read. I wish I had edited the video first and chosen an appropriate music track afterward, or edited the track to make it longer.
+
+Nonetheless, I think I was successful in capturing the mood I wanted, and I would call this project a qualified success. :slight_smile:
