@@ -84,14 +84,9 @@ params:
     intro: ""
     title: "Elizabeth Morran"
     subtitle: "Writing with reason."
-    content: 'My aim as a writer is to integrate purpose and insight, illuminating the "what"
-              for the sake of the "why."
-              With a keen eye for clarity and structure, I develop effective 
-              support content, persuasive email marketing copy and in-depth, SEO-tuned blog posts.
-              <br><br>
-              As a Customer Service Team Lead, I have three years of experience manifesting
-              a consistent voice through concise, helpful content &mdash; in dozens of 
-              customer emails and chat interactions per day.'
+    content: "My aim as a writer is to integrate purpose and insight, illuminating the “what” for the sake of the “why.” In my year as a UX Content Strategist, I've leveraged my background in cognitive science to develop user-centric digital content that simplifies complex processes and provides relevant, actionable information. 
+<br><br>
+With a keen eye for clarity and structure, and five years of professional writing experience, I develop effective UI and navigational microcopy, concise and helpful support resources, penetrating user research prompts and persuasive marketing copy."
     image: /images/me.jpg
     # Make title & subtitle font slightly smaller.
 
