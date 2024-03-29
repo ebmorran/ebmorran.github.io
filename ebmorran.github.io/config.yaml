@@ -4,6 +4,9 @@ title: "Elizabeth Morran: Portfolio"
 theme: hugo-profile
 enableRobotsTXT: true
 
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
@@ -11,72 +14,103 @@ markup:
       unsafe: true
 
 Menus:
-  # main:
-
+  #main:
+  #  - identifier: blog
+  #    name: Blog
+  #    title: Blog posts
+  #    url: /blogs
+  #    weight: 1
+  #  - identifier: gallery
+  #    name: Gallery
+  #    title: Blog posts
+  #    url: /gallery
+  #    weight: 2
     #Dropdown menu
-   # - identifier: dropdown
-   #   title: Example dropdown menu
-   #   name: Dropdown
-   #   weight: 2
-   # - identifier: dropdown1
-   #   title: example dropdown 1
-   #   name: example 1
-   #   url: /#
-   #   parent: dropdown
-   #   weight: 1
-   # - identifier: dropdown2
-   #   title: example dropdown 2
-   #   name: example 2
-   #   url: /#
-   #   parent: dropdown
-   #   weight: 2
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
 
 params:
   title: "Elizabeth Morran"
   description: Elizabeth Morran's creative portfolio.
+  # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
 
   theme:
     disableThemeToggle: false
     defaultTheme: "light" # dark
 
-  # font:
-  #   fontSize: 1.5rem # default: 1rem
-  #   fontWeight: 500 # default: 400
-  #   lineHeight: 1 # default: 1.5
-  #   textAlign: right # default: left
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
 
   # color preference
   color:
-   textColor: 
-   secondaryTextColor: 
-   backgroundColor: 
-   secondaryBackgroundColor: 
-   primaryColor: "#b11226"
-   secondaryColor: 
+    textColor: 
+    secondaryTextColor: 
+    backgroundColor: 
+    secondaryBackgroundColor: 
+    primaryColor: "#b11226"
+    secondaryColor: 
+ 
 
-  darkmode:
-   textColor: 
-   secondaryTextColor:
-   backgroundColor:
-   secondaryBackgroundColor:
-   primaryColor:
-   secondaryColor:
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
-
-  #   menus:
-  #     disableAbout: true
-  #     disableExperience: true
-  #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
-  #     disableContact: true
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Elizabeth Morran" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
 
   # Hero
   hero:
@@ -89,159 +123,79 @@ params:
 With a keen eye for clarity and structure, and five years of professional writing experience, I develop effective UI and navigational microcopy, concise and helpful support resources, penetrating user research prompts and persuasive marketing copy."
     image: /images/me.jpg
     # Make title & subtitle font slightly smaller.
+    bottomImage:
+      enable: false
+    roundImage: true # Make hero image circular | default false
+
+  # About
+  about:
+    enable: false
+
+  # Experience
+  experience:
+    enable: false
+
+  # Education
+  education:
+    enable: false
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Portfolio"
+    items:
+      - title: Example section 1
+        content: This is my example section 1
+        url: /example
+        image: /images/pixel-thumbnail.png
 
   # projects
   projects:
-    enable: true
-    items:
-      - title: Orchard Pixel launch email
-        content: A marketing email I designed and wrote to announce Orchard's launch of the Pixel line of phones. I modified an EmailOnAcid template and edited royalty-free stock photos for visual unity. My goal was to distinguish the selling points of Pixels to our audience while capturing Orchard's unique value proposition. 
-        image: /images/pixel-thumbnail.png
-        featured:
-          name: View
-          link: /html_samples/pixel2.html
-        badges:
-           - "Email copywriting"
-           - "Image editing"
-           - "HTML"      
-
-      - title: Orchard newsletter signup introduction
-        content:  This is a post-signup email targeted at new subscribers to our mailing list. The goal here is to convey the value of our content, persuade the audience to open future emails and position Orchard as a knowledgeable expert in the smartphone industry.
-        image: /images/newsletter-thumbnail.png
-        featured:
-          name: View
-          link: /html_samples/our-story.html
-        badges:
-           - "Email copywriting"
-           - "Image editing"
-           - "Canva"
-        # links:
-        #  - icon: fab fa-github
-        #    url: https://github.com/gurusabarish/converter
-
-      - title: 4 Harmful Cat Myths We Need to Put To Rest
-        content: Cats are some of the most popular pets in Canada, but even cat owners tend to misunderstand them. This piece scientifically debunks four common misconceptions about cats, to promote better human-feline relations.
-
-        image: /images/cat-myths-thumbnail.png
-        featured:
-          name: View
-          link: /pdf_samples/cat-myths.pdf
-        badges:
-          - "Blog writing"
-          - "Research"    
-
-      - title: 6 Crazy Superstitions From Around the World
-        content: A short, quirky video highlighting local superstitions in Korea, Scotland,
-                India, Brazil, Jamaica and Canada. An assignment completed in the Interactive Media Management program at Centennial College.
-        image: /images/video-title-card-thumbnail.png
-        featured:
-          name: Learn more
-          link: /work/superstitions-video/
-        badges:
-           - "Adobe Premiere"
-           - "Adobe Illustrator"
-           - "Storyboarding"
-           - "Video directing"
-        links:
-          - icon: fab fa-youtube
-            url: https://youtu.be/KmvonOKESzc
-      
-      - title: Orchard abandoned cart flow
-        content: A series of abandoned cart re-engagement emails for Orchard, which I wrote and designed myself using HTML, CSS and Canva.
-        image: /images/abandoned-cart-thumbnail.png
-        featured:
-          name: Learn more
-          link: /work/abandoned-carts/
-        badges:
-           - "Email copywriting"
-           - "HTML"
-           - "Image editing"
-           - "Canva"
-
-      - title: 10 Early Childhood Behavior Management Strategies
-        content: An informative article guiding child care providers to 10 useful strategies for encouraging good behavior and managing bad behavior at the daycare center.
-        image: /images/phil-hearing-cylPETXS7is-unsplash.jpg
-        featured:
-          name: View
-          link: /pdf_samples/10behavior.pdf
-        badges:
-           - "Blog writing"
-           - "Research"      
-
-      - title: Are Cats Antisocial? The Science of Purrfect Feline Relations
-        content: Common perception holds that cats are cold, standoffish, selfish, even "furry
-                  sociopaths." But cats, while not as outgoing as dogs, are far more companionable than many people believe. This piece explores the science behind how cats socialize, both with other cats and with humans.
-
-        image: /images/cat-sociability-thumbnail.png
-        featured:
-          name: View
-          link: /pdf_samples/cat-sociability-science.pdf
-        badges:
-          - "Blog writing"
-          - "Research"              
-
-      - title: 'JustGO: The carpool app for seniors'
-        content: A group assignment I completed in the Interactive Media Management program at Centennial College. The prompt was to design an app for seniors. I was responsible for the app concept, research, user flow, onboarding sequence and the written content of the presentation. I also contributed to the wire frames.
-        image: /images/justgo-thumbnail.png
-        featured:
-          name: View
-          link: /pdf_samples/JustGO-compressed.pdf
-        badges:
-           - "UX design"
-           - "Product design"
-           - "User research"
-           - "User flow"
-
-      - title: Child Care Philosophy
-        content: Every child care provider needs a guiding set of principles to determine their approach to early childhood education. This piece outlines some of the most common child care philosophies, and explains how to define your own.
-        image: /images/gabe-pierce-mLqWFEtlIEs-unsplash.jpg
-        featured:
-          name: View
-          link: /pdf_samples/childphilosophy.pdf
-        badges:
-          - "Blog writing"
-          - "Research"   
-
-      - title: 8 Benefits of Daycare
-        content: Parents have many good reasons for wanting to send their child to a daycare, but they may be wondering how daycare benefits their child. In this piece, I explore 8 benefits of attending daycare for young children.
-        image: /images/ryan-fields-Xz7MMD5tZwA-unsplash.jpg
-        featured:
-          name: View
-          link: /pdf_samples/8benefits.pdf
-        badges:
-          - "Blog writing"
-          - "Research"    
-
-      - title: Orchard Paybright FAQ
-        content: A FAQ page written to explain how financing works with Orchard.
-        image: /images/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg
-        featured:
-          name: View
-          link: /pdf_samples/paybright.pdf
-        badges:
-          - "FAQ copywriting" 
-
-      - title: How to Decorate a Daycare Center
-        content: In this piece, I give child care providers actionable tips on how to decorate a well-organized, beautiful child care center that kids, parents and staff will love.
-        image: /images/gautam-arora-78Ae6N7rNvI-unsplash.jpg
-        featured:
-          name: View
-          link: /pdf_samples/decorate.pdf
-        badges:
-          - "Blog writing"
-          - "Research"   
+    enable: false
 
   #Contact
   contact:
     enable: true
-    content: ""
-    email: e.b.morran@gmail.com
+    title: Contact
+    content: "Like my work? Give me a shout."
     btnName: Email me
+    btnLink: mailto:e.b.morran@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts: false
     socialNetworks:
       github: https://github.com/ebmorran/
       linkedin: https://linkedin.com/in/emorran/
       facebook: https://www.facebook.com/ebmorran/
-      # White FA icons. Open in new tabs.
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved."
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

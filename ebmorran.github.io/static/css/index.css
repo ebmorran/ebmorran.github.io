@@ -482,7 +482,7 @@ header .navbar {
 }
 
 #achievements a.card {
-    cursor: alias;
+    cursor: pointer;
 }
 
 #achievements .card h5 {
