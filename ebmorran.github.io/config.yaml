@@ -132,7 +132,7 @@ params:
     enable: true
     intro: ""
     title: "Elizabeth Morran"
-    subtitle: "Toronto, Canada"
+    subtitle: "Content designer"
     content: "I'm a content designer with six years of experience as a professional writer and two in UX. I specialize in deep-diving into subject matter knowledge to create strategic content that demystifies complexity and orients users. I'm a true grammar nerd who's obsessed with the nuts and bolts of writing, and I love using AI and automations to free up human brains for human creativity."
     image: /images/me.jpg
     # Make title & subtitle font slightly smaller.
