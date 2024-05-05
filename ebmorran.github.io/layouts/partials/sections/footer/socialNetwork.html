@@ -1,17 +1,21 @@
 <div class="text-center pt-2">
     {{ if .Site.Params.footer.socialNetworks.github }}
-    <span class="social-icon">
-        <a href="{{ .Site.Params.footer.socialNetworks.github }}" aria-label="github" target="_blank">
-            <i class="fab fa-github fa-3x"></i>
-        </a>
+    <span class="px-1">
+        <span class="social-icon">
+            <a href="{{ .Site.Params.footer.socialNetworks.github }}" aria-label="github" target="_blank">
+                <i class="fab fa-github fa-3x"></i>
+            </a>
+        </span>
     </span>
     {{ end }}
 
     {{ if .Site.Params.footer.socialNetworks.linkedin }}
-    <span class="social-icon">
-        <a href="{{ .Site.Params.footer.socialNetworks.linkedin }}" aria-label="linkedin" target="_blank">
-            <i class="fab fa-linkedin fa-3x"></i>
-        </a>
+    <span class="px-1">
+        <span class="social-icon">
+            <a href="{{ .Site.Params.footer.socialNetworks.linkedin }}" aria-label="linkedin" target="_blank">
+                <i class="fab fa-linkedin fa-3x"></i>
+            </a>
+        </span>
     </span>
     {{ end }}
 
@@ -58,10 +62,14 @@
     {{ end }}
 
     {{ if .Site.Params.footer.socialNetworks.facebook }}
-    <span class="social-icon">
-        <a href="{{ .Site.Params.footer.socialNetworks.facebook }}" aria-label="facebook" target="_blank">
-            <i class="fab fa-facebook fa-3x"></i>
-        </a>
+    <span class="px-1">
+        <span class="social-icon">
+            <a href="{{ .Site.Params.footer.socialNetworks.facebook }}" aria-label="facebook">
+                <a href="{{ .Site.Params.footer.socialNetworks.facebook }}" aria-label="facebook" target="_blank">
+                    <i class="fab fa-facebook fa-3x"></i>
+                </a>
+            </a>
+        </span>
     </span>
     {{ end }}
 </div>

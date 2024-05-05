@@ -1,32 +1,22 @@
 {{ if .Site.Params.projects.enable | default false }}
 <section id="projects" class="py-5">
     <div class="container">
-        <h3 class="text-center">Projects</h3>
+        <h3 class="text-center">{{ .Site.Params.projects.title | default "Projects" }}</h3>
         <div class="row justify-content-center px-3 px-md-5">
             {{ range .Site.Params.projects.items }}
-            <div class="col-lg-4 col-md-6 my-3">
-                <div class="card my-3 h-100" title="{{ .title }}">
+            <div class="col-lg-4 col-md-6 mt-3">
+                <a href="{{ .url }}">
+                <div class="card mt-3 h-100" title="{{ .title }}">
                     <div class="card-head">
-                        {{ if .featured }}<a href="{{ .featured.link }}" target="_blank">{{ end }}
                         <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
-                    {{ if .featured }}</a>{{ end }}
                     </div>
                     <div class="card-body bg-transparent p-3">
-                        <h5 class="card-title bg-transparent mt-1">
-                            {{ if .featured }}<a href="{{ .featured.link }}" target="_blank">{{ end }}
-                            {{ .title }}
-                        {{ if .featured }}</a>{{ end }}
-                        </h5>
+                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
                         <div class="card-text bg-transparent secondary-font">
                             {{ .content }}
                         </div>
-                        <div class="pb-2 bg-transparent"><br><strong>Skills used</strong><br>
-                            {{ range .badges }}
-                            <span class="badge badge-secondary" style="vertical-align:bottom;">{{ . }}</span>
-                            {{ end }}
-                        </div>
                     </div>
-                    {{ if or (.links) (.featured) }}
+                    <!-- {{ if or (.links) (.featured) }}
                     <div class="card-footer py-3">
                         {{ range .links }}
                         <span class="m-1 mx-2">
@@ -43,8 +33,9 @@
                         </span>
                         {{ end }}
                     </div>
-                    {{ end }}
+                    {{ end }} -->
                 </div>
+            </a>
             </div>
             {{ end }}
             {{ range ( where .Site.RegularPages "Type" "projects" ) }}

@@ -1,7 +1,7 @@
 {{ define "head" }}
 <meta name="description" content="{{ .Params.description }}">
 <link rel="stylesheet" href="/css/single.css">
-
+<link rel="stylesheet" href="/css/breadcrumbs.css">
 <!-- fontawesome -->
 <script defer src="/fontawesome-5/all-5.15.4.js"></script>
 {{ end }}
@@ -11,32 +11,40 @@
 {{ end }}
 
 {{ define "main" }}
+
 <section id="single">
+  {{ partial "breadcrumbs.html" . }}
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
             <h1 class="text-center mb-4">{{ .Title }}</h1>
-            <div class="text-center">
+            <!--<div class="text-center">
               {{ .Params.author }}
               <small>|</small>
               {{ .Date.Format "Jan 2, 2006" }}
-            </div>
+            </div>-->
           </div>
-          {{ if .Params.image }}
+          {{ if and (not (.Params.video)) (not (.Params.disableMainImg)) (.Params.image) }}
           <div class="featured-image">
-            <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
+            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
           </div>
           {{ end }}
+          {{ if or (.Params.disableMainImg) (not (.Params.image)) }}
+          <div style="margin-top:-25px;">
+          {{ end }}
           {{ if .Params.video }}
-            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <div class="featured-image" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
               <iframe src="https://www.youtube.com/embed/{{ .Params.video }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="{{ .Params.title }}"></iframe>
             </div>
           {{ end }}
-          <article class="page-content">
+          <article class="page-content p-2">
           {{ .Content | emojify }}
           </article>
+          {{ if or (.Params.disableMainImg) (not (.Params.image)) }}
+          </div>
+          {{ end }}
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-3">
@@ -89,15 +97,14 @@
           {{ end }}
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-9 p-2">
-        {{ template "_internal/disqus.html" . }}
+      <div class="page-content p-3">
+      <span style="font-size:1.3rem;"><a href='{{ printf "/%s/" .Section }}'>◀ Back to <span style="font-weight:bold;">{{ with .GetPage (printf "/%s" .Section) }}{{ .Title }}{{ end }}</span></a>
+      </span>
       </div>
     </div>
   </div>
-  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
-    <i class="fas fa-angle-up"></i>
+  <button class="p-2 px-3 mx-5" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up">▲</i>
   </button>
 </section>
 
