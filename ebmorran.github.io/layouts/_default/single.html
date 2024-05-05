@@ -1,0 +1,130 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="/css/single.css">
+<link rel="stylesheet" href="/css/breadcrumbs.css">
+<!-- fontawesome -->
+<script defer src="/fontawesome-5/all-5.15.4.js"></script>
+{{ end }}
+
+{{ define "title" }}
+{{.Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+<section id="single">
+  {{ partial "breadcrumbs.html" . }}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">{{ .Title }}</h1>
+            <!--<div class="text-center">
+              {{ .Params.author }}
+              <small>|</small>
+              {{ .Date.Format "Jan 2, 2006" }}
+            </div>-->
+          </div>
+          {{ if and (not (.Params.video)) (not (.Params.disableMainImg)) (.Params.image) }}
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
+          </div>
+          {{ end }}
+          {{ if or (.Params.disableMainImg) (not (.Params.image)) }}
+          <div style="margin-top:-25px;">
+          {{ end }}
+          {{ if .Params.video }}
+            <div class="featured-image" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+              <iframe src="https://www.youtube.com/embed/{{ .Params.video }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="{{ .Params.title }}"></iframe>
+            </div>
+          {{ end }}
+          <article class="page-content p-2">
+          {{ .Content | emojify }}
+          </article>
+          {{ if or (.Params.disableMainImg) (not (.Params.image)) }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div class="sticky-sidebar">
+          {{ if .Params.toc | default true}}
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                {{.TableOfContents}}
+              </div>
+          </aside>
+          {{ end }}
+
+          {{ if .Params.tags }}
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              {{range .Params.tags}}
+              <li class="list-inline-item"><a href="{{`tags` | absURL}}/{{.| urlize}}" target="_blank">{{.}}</a></li>
+              {{end}}
+            </ul>
+          </aside>
+          {{end}}
+
+          {{ if .Params.socialShare | default true }}
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="mailto:?subject={{ .Title }}&amp;body=Check out this site {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          {{ end }}
+        </div>
+      </div>
+      <div class="page-content p-3">
+      <span style="font-size:1.3rem;"><a href='{{ printf "/%s/" .Section }}'>◀ Back to <span style="font-weight:bold;">{{ with .GetPage (printf "/%s" .Section) }}{{ .Title }}{{ end }}</span></a>
+      </span>
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3 mx-5" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up">▲</i>
+  </button>
+</section>
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  console.log(topScroll);
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+{{ end }}

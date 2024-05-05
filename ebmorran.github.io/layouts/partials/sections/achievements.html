@@ -1,6 +1,7 @@
 {{ if .Site.Params.achievements.enable | default false }}
-<section id="achievements" class="py-5">
+<section id="portfolio" class="py-5">
     <div class="container">
+        <h3 class="text-center">{{ .Site.Params.experience.title | default "Portfolio" }}</h3>
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-3 px-md-5 px-lg-5">
                 {{ range .Site.Params.achievements.items }}
@@ -8,16 +9,16 @@
                 <div class="col-lg-4 col-md-6 my-3">
                     <a class="card my-3 h-100 p-3" href="{{ .url }}" title="{{ .title }}" target="_blank">
                         {{if .image }}
-                            <div class="card-head">
+                            <div class="card-head"><br>
                                 <img class="card-img-top" src="{{ .image }}">
                             </div>
-                        {{ end }}
+                        {{ end }}<!--
                         <div class="card-body bg-transparent">
                             <h5 class="card-title bg-transparent">{{ .title }}</h5>
                             <div class="card-text secondary-font">
                                 {{ .content }}
                             </div>
-                        </div>
+                        </div>-->
                     </a>
                 </div>
                 {{ else }}
@@ -27,13 +28,13 @@
                             <div class="card-head">
                                 <img class="card-img-top" src="{{ .image }}">
                             </div>
-                        {{ end }}
+                        {{ end }}<!--
                         <div class="card-body bg-transparent">
                             <h5 class="card-title bg-transparent">{{ .title }}</h5>
                             <div class="card-text secondary-font">
                                 {{ .content }}
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 {{ end }}

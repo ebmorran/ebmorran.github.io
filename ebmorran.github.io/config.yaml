@@ -2,8 +2,17 @@ baseURL: "https://ebmorran.github.io"
 languageCode: "en-us"
 title: "Elizabeth Morran: Portfolio"
 theme: hugo-profile
-enableRobotsTXT: true
 
+# outputs:
+#  home:
+#    - "HTML"
+#    - "RSS"
+#    - "JSON"
+#  page:
+#    - "HTML"
+#    - "RSS"
+
+# Paginate: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -14,34 +23,40 @@ markup:
       unsafe: true
 
 Menus:
-  #main:
-  #  - identifier: blog
-  #    name: Blog
-  #    title: Blog posts
-  #    url: /blogs
-  #    weight: 1
-  #  - identifier: gallery
-  #    name: Gallery
-  #    title: Blog posts
-  #    url: /gallery
-  #    weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+  main:
+#    - identifier: about
+#      name: About Me
+#      title: About Me
+#      url: /about
+#      weight: 2
+    - identifier: contact
+      name: Contact
+      title: Contact
+      url: /#contact
+      weight: 3
+    - identifier: portfolio
+      title: Portfolio
+      name: Portfolio
+      weight: 1
+      url: /#portfolio
+    - identifier: medavie
+      title: Medavie Blue Cross
+      name: Medavie Blue Cross
+      url: /medavie-blue-cross
+      parent: portfolio
+      weight: 1
+    - identifier: orchard
+      title: Orchard
+      name: Orchard
+      url: /orchard
+      parent: portfolio
+      weight: 2
+    - identifier: freelance
+      title: Freelance & Student
+      name: Freelance & Student
+      url: /freelance
+      parent: portfolio
+      weight: 3
 
 params:
   title: "Elizabeth Morran"
@@ -66,7 +81,7 @@ params:
   animate: true
 
   theme:
-    disableThemeToggle: false
+    disableThemeToggle: true
     defaultTheme: "light" # dark
 
   font:
@@ -108,19 +123,17 @@ params:
       disableAbout: false
       disableExperience: false
       disableEducation: false
-      disableProjects: false
-      disableAchievements: false
-      disableContact: false
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
 
   # Hero
   hero:
     enable: true
     intro: ""
     title: "Elizabeth Morran"
-    subtitle: "Writing with reason."
-    content: "My aim as a writer is to integrate purpose and insight, illuminating the “what” for the sake of the “why.” In my year as a UX Content Strategist, I've leveraged my background in cognitive science to develop user-centric digital content that simplifies complex processes and provides relevant, actionable information. 
-<br><br>
-With a keen eye for clarity and structure, and five years of professional writing experience, I develop effective UI and navigational microcopy, concise and helpful support resources, penetrating user research prompts and persuasive marketing copy."
+    subtitle: "Toronto, Canada"
+    content: "I'm a content designer with six years of experience as a professional writer and two in UX. I specialize in deep-diving into subject matter knowledge to create strategic content that demystifies complexity and orients users. I'm a true grammar nerd who loves the nuts and bolts of writing, and I love using AI and automations to free up human brains for human creativity."
     image: /images/me.jpg
     # Make title & subtitle font slightly smaller.
     bottomImage:
@@ -144,14 +157,29 @@ With a keen eye for clarity and structure, and five years of professional writin
     enable: true
     title: "Portfolio"
     items:
-      - title: Example section 1
-        content: This is my example section 1
-        url: /example
-        image: /images/pixel-thumbnail.png
+      - title:
+        content: 
+        url: /medavie-blue-cross
+        image: /images/logos/mbc-logo-en.png
+      - title: 
+        content: 
+        url: /orchard
+        image: /images/logos/orchard-logo.png
+      - title: 
+        content: 
+        url: /freelance
+        image: /images/logos/freelance.png
+
 
   # projects
   projects:
-    enable: false
+    enable: true
+    title: "Recent projects"
+    items:
+      - title: Delisted providers in search
+        content: "An update to Medavie's mobile provider search, adding a filter for delisted providers."
+        image: /images/map-sample.png
+        url: /medavie-blue-cross/delisted-providers/
 
   #Contact
   contact:
@@ -170,7 +198,6 @@ With a keen eye for clarity and structure, and five years of professional writin
     socialNetworks:
       github: https://github.com/ebmorran/
       linkedin: https://linkedin.com/in/emorran/
-      facebook: https://www.facebook.com/ebmorran/
 
   # List pages like blogs and posts
   listPages:
@@ -179,10 +206,10 @@ With a keen eye for clarity and structure, and five years of professional writin
   # Single pages like blog and post
   singlePages:
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
-      enable: true
+      enable: false
 
   # For translations
   terms:

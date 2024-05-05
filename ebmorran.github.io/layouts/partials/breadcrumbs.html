@@ -1,0 +1,15 @@
+<section id="breadcrumbs">
+  <div class="container">
+            <nav aria-label="breadcrumb">
+            <ol class="breadcrumb page-content">
+                <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+                {{ if .Section }}
+                    <li class="breadcrumb-item"><a href='{{ printf "/%s/" .Section }}'>{{ with .GetPage (printf "/%s" .Section) }}{{ .Title }}{{ end }}</a></li>
+                {{ end }}
+                {{ if .Title }}
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title | truncate 20 }}</li>
+                {{ end }}
+            </ol>
+            </nav>
+</div>
+</section>
