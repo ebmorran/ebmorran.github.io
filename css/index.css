@@ -462,17 +462,17 @@ header .navbar {
     opacity: 0.8;
 }
 
-/* achievements */
+/* portfolio */
 
-#achievements a {
+#portfolio a {
     text-decoration: none;
 }
 
-#achievements h3 {
+#portfolio h3 {
     color: var(--text-secondary-color) !important;
 }
 
-#achievements .card {
+#portfolio .card {
     background-color: var(--secondary-color) !important;
     border-radius: 1rem;
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
@@ -481,25 +481,27 @@ header .navbar {
     border: 2px solid transparent;
 }
 
-#achievements a.card {
-    cursor: alias;
+#portfolio a.card {
+    cursor: pointer;
 }
 
-#achievements .card h5 {
+#portfolio .card h5 {
     color: var(--text-color) !important;
     opacity: 0.9;
 }
 
-#achievements .card:hover {
+#portfolio .card:hover {
+ /*   border: 2px solid var(--text-color);
+    transition: .3s; */
+    transition: all 0.3s ease-out;
+    transform: translateY(-7px);
+}
+/*#portfolio .card:focus {
     border: 2px solid var(--text-color);
     transition: .3s;
-}
-#achievements .card:focus {
-    border: 2px solid var(--text-color);
-    transition: .3s;
-}
+}*/
 
-#achievements .card-text {
+#portfolio .card-text {
     background-color: var(--secondary-color) !important;
     color: var(--text-secondary-color) !important;
 }
