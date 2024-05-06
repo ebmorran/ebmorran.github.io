@@ -477,7 +477,7 @@ header .navbar {
     border-radius: 1rem;
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
     /* transform: translate3d(0, 0, 0); */
-    transition: box-shadow .2s linear,opacity .2s linear;
+    transition: box-shadow .2s linear,opacity .2s linear, transform 0.3s ease;
     border: 2px solid transparent;
 }
 
