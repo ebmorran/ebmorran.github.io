@@ -17,6 +17,8 @@ toc:
 ## Request
 Sometimes, a healthcare provider will be removed from the Blue Cross network, making their services ineligible for coverage. This can be for various reasons, from legal issues to the provider having retired. Because of contractual obligations with an external stakeholder, we needed to include these providers in our mobile app's provider search feature, while clearly labeling them as ineligible.
 
+On this project, I collaborated with a UX designer to implement the needed changes.
+
 ## Constraints
 Since there are sometimes sensitive legal issues with a provider becoming ineligible, we needed to avoid revealing or suggesting details. We did not want users to see these providers unless they were specifically looking for them, and we needed to make it obvious which providers were ineligible. 
 
