@@ -174,7 +174,7 @@ params:
   # projects
   projects:
     enable: true
-    title: "Recent projects"
+    title: "Featured projects"
     items:
       - title: Delisted providers in search
         content: "An update to Medavie's mobile provider search, adding a filter for delisted providers."

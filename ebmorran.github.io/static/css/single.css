@@ -65,6 +65,13 @@
     background-color: var(--secondary-color) !important;
 }
 
+#single .page-content img {
+    display: block;     /* Makes the image a block-level element */
+    margin-left: auto;  /* Auto margin for horizontal centering */
+    margin-right: auto; /* Auto margin for horizontal centering */
+    max-width: 100%;    /* Ensures the image does not overflow its container */
+}
+
 /* table */
 #single .page-content table {
     width: auto;

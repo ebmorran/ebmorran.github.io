@@ -1,3 +1,12 @@
+#list-page .row {
+    display: flex;
+    justify-content: center;
+}
+
+#list-page .col-lg-4.col-md-6.my-3 {
+    flex: 0 0 auto; /* Ensures that the columns only take as much space as needed */
+}
+
 #list-page .card {
     background-color: var(--secondary-color) !important;
     box-shadow: 0px 8px 56px rgba(15, 80, 100, 0.16);

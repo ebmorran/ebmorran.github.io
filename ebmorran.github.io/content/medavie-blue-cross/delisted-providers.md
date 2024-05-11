@@ -36,6 +36,8 @@ The explanation I provided is:
 
 This is intentionally ambiguous, to encourage members to choose providers who are not delisted while not definitively saying their coverage will be denied.
 
+While the designer suggested displaying labels on both active and delisted providers, I thought this would draw unnecessary attention and raise questions about what "active" means. We decided to label only delisted providers in search results.
+
 ### Display
 
 <img src="/image_samples/medavie/delisted-providers/brainstorming.jpg" style="margin: auto; width: 100%; padding-bottom:10px;">
@@ -45,11 +47,9 @@ When it came to displaying these providers in search, I identified three possibl
 2. Search returns both delisted and active providers
 3. Search only returns delisted providers.
 
-While the designer suggested displaying labels on both active and delisted providers, I thought this would draw unnecessary attention and raise questions about what "active" means. We decided to label only delisted providers in search results, meaning scenario one would be identical to the current state.
-
 <img src="/image_samples/medavie/delisted-providers/draft-options.jpg" style="margin: auto; width: 100%; padding-bottom:10px;">
 
-Initially, the designer created an alert message that would appear in scenario 2, whenever a search contained delisted providers. My concern with an alert was that it could be intrusive, since most users don't want to see delisted providers. I suggested displaying a filter with an expand/collapse toggle that would be collapsed by default.
+Because delisted providers can't be claimed, we wanted to make sure that users were exposed to the explanation of "delisted provider" before they could toggle them on or off in the search results. Initially, the designer created an alert message that would appear in scenario 2, whenever a search contained delisted providers. My concern with an alert was that it could be intrusive, since most users don't want to see delisted providers. I suggested displaying a filter where both the description of "delisted provider" and the toggle button were collapsed by default, so that they would be exposed at the same time, but only if the user chose to investigate that option.
 
 <img src="/image_samples/medavie/delisted-providers/search-delisted-only.jpg" style="margin: auto; width: 70%; padding-bottom:10px;">
 
