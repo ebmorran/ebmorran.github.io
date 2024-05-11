@@ -170,7 +170,7 @@ params:
         url: /freelance
         image: /images/logos/freelance.png
 
-
+  # add company names to these
   # projects
   projects:
     enable: true
