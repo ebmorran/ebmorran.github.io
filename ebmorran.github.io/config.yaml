@@ -180,6 +180,10 @@ params:
         content: "An update to Medavie's mobile provider search, adding a filter for delisted providers."
         image: /images/map-sample.png
         url: /medavie-blue-cross/delisted-providers/
+      - title: Is it time for an upgrade?
+        content: "Your guide to whether you need a new iPhone (or just a repair)."
+        image: "/images/iphone-upgrade.jpg"
+        url: /orchard/iphone-upgrade
 
   #Contact
   contact:

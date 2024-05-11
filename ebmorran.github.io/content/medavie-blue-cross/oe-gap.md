@@ -1,5 +1,5 @@
 ---
-title: "Self-enrolment features in admin portal"
+title: "Online Enrolment in Admin Portal"
 date: 2024-02-10T22:53:58+05:30
 draft: true
 author: "Elizabeth Morran"
@@ -19,11 +19,20 @@ Individually adding the personal details of employees to a plan can be tedious, 
 The purpose of this project is to add Online Enrolment features to GAP, so that GAs can add employees, track online enrolment progress and finalize details within the portal.
 
 ## Constraints
-* Existing system with its own features and states
-* GA normally creates plan details up front, but since these depend on employee-entered information in OE, the
+* Two existing systems with their own features and states
+* It was determined by stakeholders that all OE features would be a modification of the current "Add Member" experience
+* Current GA "action log" somewhat mysterious: adding OE statuses to 
+* GA normally creates plan details up front, but since these depend on employee-entered information in OE, the plan information needs to be added at the end before finally submitting everything to Medavie's system
+* We have no ability to change anything about the OE experience itself in any way: we are stuck with whatever it allows us to input, whatever data it already outputs, and however it works for the member
+* Balancing GA vs member experience (when to allow editing details, consequences of editing)
 
 
 ## Ideation and solution
+
+### Understanding the system
+
+
+
 Add member:
 * Wanted to have a basic explanation of what online enrolment does
 * Need to explain the email will be sent on the enrolment start date (not immediately)
