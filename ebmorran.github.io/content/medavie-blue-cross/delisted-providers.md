@@ -31,7 +31,7 @@ There were several options available for labeling these ineligible providers, co
 - **Inactive:** Potentially misleading, as it may be taken to be mean that the provider is retired.
 - **Out of network:** Canadian health insurance companies generally don't have a "provider network," so this might cause confusion.
 
-Ultimately, I decided to suggest the term **delisted**. "Delisted" is neutral-sounding and has the advantage of *not* having any obvious meaning or implications. To understand what we mean by it, the user will have to read our explanation.
+Ultimately, I decided to suggest the term **delisted**. "Delisted" is neutral-sounding and has the advantage of *not* having any obvious meaning or implications. The user will not read anything into it other than the explanation we provide.
 
 The explanation I provided is:
 > Delisted providers may not be eligible for coverage under your Blue Cross plan.
