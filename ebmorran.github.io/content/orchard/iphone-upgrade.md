@@ -11,7 +11,7 @@ badges:
            - "SEO"
            - "Blog writing"
            - "Research"      
-toc: 
+toc: false
 ---
 
 Your old iPhone is on its last legs, or so it seems. Maybe the battery dies every two hours, or
