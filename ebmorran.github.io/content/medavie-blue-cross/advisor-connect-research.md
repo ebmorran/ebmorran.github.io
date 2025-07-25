@@ -24,53 +24,53 @@ toc: false
 
 ---
 
-## Context & Research Goals  
-### The Challenge  
+## Context & research goals
+### The challenge
 As we designed the Advisor Portal, we encountered conflicting stakeholder opinions about navigation, terminology, and feature prioritization. Existing user research and personas, conducted by another team, were too abstract to guide decision-making.
 
-### Our Research Goals  
+### Our research goals
 - Understand advisors’ day-to-day workflows to ensure the portal aligned with real tasks and priorities.  
 - Identify how advisors currently find and use key resources (e.g., forms, client policies, sales tools).  
 - Validate proposed structure, naming conventions, and key navigation patterns.  
 
 ---
 
-## Research Approach & Methods  
+## Research approach & methods
 Since the portal was still in development, our research combined user interviews (to understand workflows) and usability testing (to validate early prototypes).  
 
-### User Interviews: Understanding Advisor Workflows  
+### User interviews: understanding advisor workflows
 - 6 Advisors (4 female, 2 male) interviewed remotely via WebEx  
 - Open-ended discussions to explore:  
   - Daily responsibilities and most frequently used resources  
   - Pain points with current tools and systems  
   - Mental models of client, policy, and document organization  
 
-### Prototype Usability Testing (Task-Based)  
+### Prototype usability testing (task-based)
 - High-fidelity prototype tested through structured tasks  
 - 5 standardized tasks (e.g., locating key documents, navigating client data)  
 - Think-aloud protocol to capture real-time reactions  
 
-### Data Synthesis & Analysis  
+### Data synthesis & analysis
 - Cluster analysis to group pain points and behavioral patterns  
 - Comparative analysis of advisors’ expectations vs. current design proposals  
 - Stakeholder alignment workshop to review findings and recommendations  
 
 ---
 
-## Findings & Insights  
-### 1. The Portal’s Structure Didn’t Match Advisor Workflows  
+## Findings & insights
+### 1. The portal’s structure didn’t match advisor workflows
 - Advisors thought in terms of policies, not client accounts — contrary to the existing navigation model.  
 - The Client/Policy/Division hierarchy didn’t align with how advisors organized information.
 - They rarely used flyers or brochures, despite their prominence in the original design.  
 
-### 2. Key Information Was Buried or Difficult to Find  
+### 2. Key information was buried or difficult to find
 - Advisors frequently needed forms and renewal dates, but these were not easily accessible.  
 - Policy renewal dates were fundamental in prioritizing the advisors' workflow, but client tables did not enable sorting by renewal date.
 - Advisors didn’t recognize "Library" or "Sales Resources" as relevant to their work.  
 
 ---
 
-## Impact & Design Recommendations  
+## Impact & design recommendations
 Our research led to concrete design improvements:  
 
 * Navigation Overhaul: Restructured Clients & Policies to align with advisor workflows, making the policy the core object of the portal.  
