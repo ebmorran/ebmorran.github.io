@@ -12,6 +12,6 @@ badges:
            - "Product design"
            - "User research"
            - "User flow"    
-toc: 
+toc: false
 --- 
 Article text goes here.
