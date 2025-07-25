@@ -7,7 +7,7 @@ image: /images/abandoned-cart-thumbnail.png
 description: ""
 summary: " "
 socialShare: false
-toc: 
+toc: false
 ---
 &nbsp;  
 **Objective:** Create a series of re-engagement emails for abandoned checkouts.  

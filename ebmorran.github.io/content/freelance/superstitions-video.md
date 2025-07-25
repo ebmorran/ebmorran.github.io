@@ -13,7 +13,7 @@ badges:
            - "Adobe Illustrator"
            - "Storyboarding"
            - "Video directing"
-toc: 
+toc: false
 ---
 &nbsp;  
 **Objective:** Create a short "viral video" based on one of the most common viral formats.  

@@ -10,7 +10,7 @@ socialShare: false
 badges:
            - "Blog writing"
            - "Research"      
-toc: 
+toc: false
 ---
 As every parent and early childhood educator knows, kids aren’t born well-behaved! Kids need
 supportive, understanding adult guidance to help them learn to model good behavior and avoid
