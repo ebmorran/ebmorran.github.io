@@ -1,5 +1,5 @@
 ---
-title: "Advisor Connect User Study"
+title: "Advisor Connect user study"
 date: 2022-02-10T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
@@ -73,9 +73,9 @@ Since the portal was still in development, our research combined user interviews
 ## Impact & design recommendations
 Our research led to concrete design improvements:  
 
-* Navigation Overhaul: Restructured Clients & Policies to align with advisor workflows, making the policy the core object of the portal.  
-* Terminology Refinement: Renamed "Sales Resources" to "Reference Materials" to match user expectations.  
-* Feature Prioritization: Made forms more accessible with a shortcut in the main navigation, and renewal date the default sort for policy tables.  
-* Cognitive Load Reduction: Simplified search filters and menu structures.  
+* **Navigation overhaul:** Restructured Clients & Policies to align with advisor workflows, making the policy the core object of the portal.
+* **Terminology refinement:** Renamed "Sales Resources" to "Reference Materials" to match user expectations.
+* **Feature prioritization:** Made forms more accessible with a shortcut in the main navigation, and renewal date the default sort for policy tables.
+* **Cognitive load reduction:** Simplified search filters and menu structures.
 
 These insights resolved stakeholder disagreements and provided a user-centered foundation for the portal’s design.  

@@ -24,7 +24,7 @@ Let’s take a look at the importance of childhood behavior management, and 10
 effective tips from *Client*’s childcare experts to manage childhood behavior in your preschool or
 daycare.
 
-## Why is Childhood Behavior Management Important?
+## Why is childhood behavior management important?
 
 Child behavior management is one of the most important tools you have as a child care provider
 to make your classroom a supportive learning environment. Good behavior reduces disruptions
@@ -40,9 +40,9 @@ your child care business. Behavioral issues in kids can become safety issues or 
 if left unchecked. Managing childhood behavior and collaborating with parents is the best way to
 prevent these problems.
 
-## 10 Early Childhood Behavior Management Strategies
+## 10 early childhood behavior management strategies
 
-### Encouraging Good Behavior
+### Encouraging good behavior
 
 1. Set Clear Expectations for Behavior (Specific, Observable, Measurable)
 
@@ -101,7 +101,7 @@ the classroom matters and is valued. By letting kids visually see how their acti
 rewards, you help them get excited to do their best, as well as building the important
 developmental skill of learning to make progress toward a goal over time.
 
-### Dealing with Bad Behavior
+### Dealing with bad behavior
 
 6. Stay in Control with Rational Detachment
 
@@ -162,7 +162,7 @@ without causing confusion with differing expectations. It’s also a great way t
 nurture relationships with families, by showing them that you’re their partner in helping their
 child reach their full potential.
 
-## Support Your Behavior Management Strategies with *Client* Solutions
+## Support your behavior management strategies with *Client* solutions
 Helping kids model good behavior in your center and beyond is one of the most effective things
 you can do to maintain a happy child care environment, build relationships with parents and
 nurture kids to their full potential. *Client*’s dependable child care management software and

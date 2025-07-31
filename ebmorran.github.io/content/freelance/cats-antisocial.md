@@ -14,7 +14,7 @@ toc: false
 ---
 You've heard it said before by cat haters and lovers alike: cats are cold, standoffish, selfish, even "furry sociopaths." While you may not buy that cats are evil, cold-hearted killers, many cat lovers believe that their cats are essentially loners, who appreciate human company only because it comes with the promise of food. But cats, while not as outgoing as dogs, are far more companionable than many people believe. Read on to find out more about how cats socialize, both with other cats and with humans.
 
-## Feline Societies
+## Feline societies
 
 True, cats are independent, and [don't have the same innate need for social contact that dogs do.](https://www.telegraph.co.uk/science/2016/03/14/cats-do-not-need-their-owners-scientists-conclude/) Unlike dogs, cats are solitary hunters, meaning they don't stalk their prey in groups, so they're not dependent on others for survival. And their ancestor, the wildcat, does tend to live alone. But think of cats not as antisocial, but as introverts. A human being who prefers a good book to a party still wouldn't want to spend his life in solitary confinement, and so it is with cats.
 
@@ -24,7 +24,7 @@ Within a colony, each cat has its own territory — which is why it can sometime
 
 While cats are wary to outsiders, they can come to warm up to them after some time and many interactions. And when we adopt cats, they adopt us, [treating us as a beloved member of their colony](https://news.nationalgeographic.com/news/2014/01/140127-cats-pets-animals-nation-dogs-people-science/). In fact, scientists now believe that rather than being purposely bred by humans, [cats domesticated](https://news.nationalgeographic.com/2017/06/domesticated-cats-dna-genetics-pets-science/) [themselves](https://news.nationalgeographic.com/2017/06/domesticated-cats-dna-genetics-pets-science/)! Nosing their way into our lives with friendly curiosity, it seems cats have been social from the start. So why can they sometimes seem so aloof?
 
-## Foreign Relations
+## Foreign relations
 
 According to experts, social contact is an important form of mental stimulation for domestic cats, especially those confined indoors. [Cats without enough contact may become bored and neurotic](https://www.chewy.com/petcentral/behavior-stress-anxiety-do-cats-get-lonely/), leading to unwanted destructive behaviors.
 
