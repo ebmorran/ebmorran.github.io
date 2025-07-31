@@ -28,9 +28,9 @@ Although this was a student project and it's a little rough around the edges, I 
 
 Read on to find out the process behind this video, what I learned, and what I might do differently next time. 
 
-## Concept & Narrative
+## Concept & narrative
 
-The idea to make a video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk these myths. I developed the idea into brief, humorous sketches illustrating each supersititon.
+The idea to make a video about world superstitions was Myungki's. Her inspiration was the well-known Korean "fan death" myth featured in the video. At first, the concept was to debunk these myths. I developed the idea into brief, humorous sketches illustrating each superstition.
 
 Quickly, we realized our group represented five different nations, either by birth or recent ancestry. This happy coincidence suggested our format: each of us would showcase a belief from our home or ancestral country.
 
