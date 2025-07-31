@@ -10,7 +10,7 @@ socialShare: false
 badges:
           - "Blog writing"
           - "Research"    
-toc: 
+toc: false
 ---
 You've heard it said before by cat haters and lovers alike: cats are cold, standoffish, selfish, even "furry sociopaths." While you may not buy that cats are evil, cold-hearted killers, many cat lovers believe that their cats are essentially loners, who appreciate human company only because it comes with the promise of food. But cats, while not as outgoing as dogs, are far more companionable than many people believe. Read on to find out more about how cats socialize, both with other cats and with humans.
 

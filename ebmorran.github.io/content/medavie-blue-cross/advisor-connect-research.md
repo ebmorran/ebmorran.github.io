@@ -14,7 +14,7 @@ badges:
            - "Stakeholder communication"
            - "Heuristic evaluation"
            - "Behavioral observation"
-toc: 
+toc: false
 --- 
 
 **Role:** UX Researcher, Content Strategist  

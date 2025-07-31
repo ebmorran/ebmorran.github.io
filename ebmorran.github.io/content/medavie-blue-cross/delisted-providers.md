@@ -8,7 +8,7 @@ disableMainImg: true
 description: 
 summary: "An update to our mobile provider search, adding a filter for delisted providers."           
 socialShare: false
-toc: 
+toc: false
 ---
 <div id="delisted-img-container" style="margin:auto; padding-bottom: 25px;">
 <img src="/image_samples/medavie/delisted-providers/description.png" style="margin: auto; width: 70%;">

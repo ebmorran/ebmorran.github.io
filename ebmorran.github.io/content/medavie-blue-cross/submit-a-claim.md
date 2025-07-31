@@ -10,7 +10,7 @@ socialShare: false
 badges:
           - "Blog writing"
           - "Research"    
-toc: 
+toc: false
 ---
 &nbsp;  
 Article text goes here. 
