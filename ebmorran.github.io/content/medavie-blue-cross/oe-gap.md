@@ -1,5 +1,5 @@
 ---
-title: "Online Enrolment in Admin Portal"
+title: "Online enrolment in Admin Portal"
 date: 2024-02-10T22:53:58+05:30
 draft: true
 author: "Elizabeth Morran"

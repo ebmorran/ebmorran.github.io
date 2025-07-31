@@ -1,5 +1,5 @@
 ---
-title: "Delisted Providers in Search"
+title: "Delisted providers in search"
 date: 2022-02-10T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"

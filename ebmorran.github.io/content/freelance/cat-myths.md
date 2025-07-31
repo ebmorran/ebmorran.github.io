@@ -49,7 +49,7 @@ Cats [recognize their owners' voices,](https://blogs.scientificamerican.com/not-
 
 So don't look down on your cat for not being as exuberant as a dog. Instead, learn to recognize and reciprocate her unique feline form of showing love. Understand that they're sensitive introverts who need their space, but that doesn't mean they love you any less. (For more signs of feline affection, check out [this list on Catster.](https://www.catster.com/lifestyle/cat-behavior-cat-affection-signs))
 
-## The Takeaway
+## The takeaway
 
 Cats sometimes get a bad rap, but it's only when we hold them to a human or canine standard of behavior, rather than learning to love them for the cute, spirited, agile, funny and loving creatures they are. Unwanted cat behaviors and [aggression](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/aggression-cats) are often a result of stress, stress that can be caused by [humans who don't understand cats' needs.](https://www.telegraph.co.uk/news/newstopics/howaboutthat/11097503/Cats-are-stressed-because-we-treat-them-like-dogs.html)
 

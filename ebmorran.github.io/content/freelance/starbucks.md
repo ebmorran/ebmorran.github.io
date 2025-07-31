@@ -1,5 +1,5 @@
 ---
-title: "Starbucks Candygram App"
+title: "Starbucks Candygram app"
 date: 2024-01-10T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
