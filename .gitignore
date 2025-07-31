@@ -1,2 +1,7 @@
 ebmorran.github.io/public
 *.lock
+
+# Ignore Windows Zone.Identifier files
+Zone.Identifier
+*:Zone.Identifier
+*Zone.Identifier*

@@ -10,7 +10,7 @@ socialShare: false
 badges:
           - "Blog writing"
           - "Research"    
-toc: 
+toc: false
 ---
 
 Cats are undeniably popular pets, finding homes in [30% of American](https://www.avma.org/KB/Resources/Statistics/Pages/Market-research-statistics-US-pet-ownership.aspx) and [37% of Canadian households](https://www.canadianveterinarians.net/documents/canadian-pet-population-figures-cahi-2017). They're cute and cuddly creatures whose unique personalities and funny antics have charmed us for centuries. And who doesn't love watching [cat videos on YouTube](https://www.youtube.com/watch?v=o00Ev2aXLCE)?

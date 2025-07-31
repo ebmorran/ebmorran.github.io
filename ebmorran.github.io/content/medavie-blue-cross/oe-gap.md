@@ -8,7 +8,7 @@ disableMainImg: false
 description: 
 summary: "Upgrading our Group Admin Portal to allow employees to enrol in their own plans."           
 socialShare: false
-toc: 
+toc: false
 ---
 
 ## Request
@@ -22,7 +22,7 @@ The purpose of this project is to add Online Enrolment features to GAP, so that 
 * Two existing systems with their own features and states
 * We have no ability to change anything about the OE experience itself in any way: we are stuck with whatever it allows us to input, whatever data it already outputs, and however it works for the member
 * It was determined by stakeholders that all OE features would be a modification of the current "Add Member" experience
-* Current GA "action log" somewhat mysterious: adding OE statuses to this can make it even more confusing, especially since current OE statuses have same/similar names with dfiferent meanings
+* Current GA "action log" somewhat mysterious: adding OE statuses to this can make it even more confusing, especially since current OE statuses have same/similar names with different meanings
 * GA normally creates plan details up front, but since these depend on employee-entered information in OE, the plan information needs to be added at the end before finally submitting everything to Medavie's system
 * Balancing GA vs member experience (when to allow editing details, consequences of editing)
 * Invitation email may be forward-dated, complicating the explanation of what "submit" does
