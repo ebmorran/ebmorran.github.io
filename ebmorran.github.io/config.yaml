@@ -39,24 +39,30 @@ Menus:
       name: Portfolio
       weight: 1
       url: /#portfolio
+#    - identifier: cibc
+#      title: CIBC
+#      name: CIBC
+#      url: /cibc
+#      parent: portfolio
+#      weight: 1
     - identifier: medavie
       title: Medavie Blue Cross
       name: Medavie Blue Cross
       url: /medavie-blue-cross
       parent: portfolio
-      weight: 1
+      weight: 2
     - identifier: orchard
       title: Orchard
       name: Orchard
       url: /orchard
       parent: portfolio
-      weight: 2
+      weight: 3
     - identifier: freelance
       title: Freelance & Student
       name: Freelance & Student
       url: /freelance
       parent: portfolio
-      weight: 3
+      weight: 4
 
 params:
   title: "Elizabeth Morran"
@@ -82,7 +88,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -132,8 +138,8 @@ params:
     enable: true
     intro: ""
     title: "Elizabeth Morran"
-    subtitle: "Content designer"
-    content: "I'm a content designer with seven years of experience as a professional writer and three in UX. I specialize in deep-diving into subject matter knowledge to create strategic content that demystifies complexity and orients users. I'm a true grammar nerd who's obsessed with the nuts and bolts of writing, and I love using AI and automations to free up human brains for human creativity."
+    subtitle: "UX content that informs, clarifies and guides"
+    content: "I specialize in deep-diving into subject matter knowledge to create strategic content that demystifies complexity and orients users. I'm a true grammar nerd who's obsessed with the nuts and bolts of writing, and I love using AI and automations to free up human brains for human creativity."
     image: /images/me.jpeg
     # Make title & subtitle font slightly smaller.
     bottomImage:
@@ -157,6 +163,10 @@ params:
     enable: true
     title: "Portfolio"
     items:
+#      - title:
+#        content: 
+#        url: /cibc
+#        image: /images/logos/cibc-logo.png
       - title:
         content: 
         url: /medavie-blue-cross

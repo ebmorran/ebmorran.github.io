@@ -36,7 +36,7 @@
                             <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title | truncate 30 }}</h5>
                         <!--</a>-->
                         {{ if ne .Summary " " }}
-                        <div class="card-text primary-font" style="color:black;">
+                        <div class="card-text primary-font" style="color:var(--text-secondary-color);">
                             <p>{{ .Summary | truncate 300}}</p>
                         </div>
                         {{ end }}
