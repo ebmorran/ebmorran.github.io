@@ -39,12 +39,12 @@ Menus:
       name: Portfolio
       weight: 1
       url: /#portfolio
-#    - identifier: cibc
-#      title: CIBC
-#      name: CIBC
-#      url: /cibc
-#      parent: portfolio
-#      weight: 1
+    - identifier: cibc
+      title: CIBC
+      name: CIBC
+      url: /cibc
+      parent: portfolio
+      weight: 1
     - identifier: medavie
       title: Medavie Blue Cross
       name: Medavie Blue Cross
@@ -138,8 +138,8 @@ params:
     enable: true
     intro: ""
     title: "Elizabeth Morran"
-    subtitle: "UX content that informs, clarifies and guides"
-    content: "I specialize in deep-diving into subject matter knowledge to create strategic content that demystifies complexity and orients users. I'm a true grammar nerd who's obsessed with the nuts and bolts of writing, and I love using AI and automations to free up human brains for human creativity."
+    subtitle: "Designing confidence and trust"
+    content: "Confidence comes from clarity. I reduce uncertainty and empower users through carefully structured experiences with scalable content that guides, educates and builds trust. Driven by user research and deep product understanding, I work with cross-functional teams to simplify decision points and help users move forward."
     image: /images/me.jpeg
     # Make title & subtitle font slightly smaller.
     bottomImage:
@@ -163,10 +163,10 @@ params:
     enable: true
     title: "Portfolio"
     items:
-#      - title:
-#        content: 
-#        url: /cibc
-#        image: /images/logos/cibc-logo.png
+      - title:
+        content: 
+        url: /cibc
+        image: /images/logos/cibc-logo.png
       - title:
         content: 
         url: /medavie-blue-cross
@@ -186,15 +186,16 @@ params:
     enable: true
     title: "Featured projects"
     items:
-      - title: Delisted providers in search
-        content: "An update to Medavie's mobile provider search, adding a filter for delisted providers."
-        image: /images/map-sample.png
-        url: /medavie-blue-cross/delisted-providers/
-      - title: Is it time for an upgrade?
-        content: "Your guide to whether you need a new iPhone (or just a repair)."
-        image: "/images/iphone-upgrade.jpg"
-        url: /orchard/iphone-upgrade
+      - title: Status visibility during manual ID review
+        content: "Improving visibility of system status during manual identity verification at CIBC."
+        image: "/images/passport-photo.jpg"
+        url: /cibc/newcomer-account/
+      - title: Advisor Connect user study
+        content: "A user study to discover advisors' daily needs and realign their portal at Medavie Blue Cross."
+        image: /images/advisor-portal-screenshot.png
+        url: /medavie-blue-cross/advisor-connect-research/
 
+        
   #Contact
   contact:
     enable: true
