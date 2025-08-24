@@ -13,7 +13,7 @@ toc: false
 My name is Elizabeth Morran. Located in Toronto, I've been writing web content for over seven years and designing UX content for over three. Here's a little about me and the way I work.
 
 ## Not *just* a writer...
-I’m a designer and strategist first, with words as my primary tool. I focus on structure and information architecture as much as language itself, and one of my key skills is knowing where *not* to add words. I think holistically across journeys, catch risks early, and anticipate how changes will affect things over time.
+I’m a designer and strategist first, with words as my primary tool. I focus on structure and information architecture as much as language itself, and one of my key skills is knowing where *not* to add words. I think holistically across journeys, catch risks early and anticipate how changes will affect things over time.
 
 ## But definitely a writer.
 The written word is where I'm most at home. In writing I can articulate what others struggle to express, capturing knowledge so it’s clear and usable. I’m highly attuned to small shifts in vocabulary that strengthen meaning, and I proofread instinctively, spotting errors and inconsistencies at a glance. I deeply believe that correct, precise language is essential to comprehension, brand authority and user trust. 
