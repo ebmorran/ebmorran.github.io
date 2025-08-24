@@ -76,9 +76,9 @@ The user doesn't have to visually scan the page to know what happened. They are 
 ## Alignment and outcome
 
 The developers on the team were reluctant to make these changes, arguing that the existing status indicators were enough. But with backup from the UX designer, I strongly advocated for this solution, asking the team to put themselves into the shoes of a newcomer:
-* They're unfamiliar with Canadian banking practices and culture.
-* They're likely feeling tension, and afraid of making mistakes in a bureaucratic process.
-* They could have any age, amount of education, English skills or level of ease with technology. 
+* They're unfamiliar with Canadian culture and banking practices.
+* They're likely feeling tension, and afraid of making mistakes in a bureaucratic system.
+* They could have any age, amount of education, degree of English ability or level of ease with technology. 
 
 This user would need clear instructions, reassurance and predictable steps. 
 
