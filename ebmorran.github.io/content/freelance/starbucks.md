@@ -16,7 +16,7 @@ This app was an assignment completed in the Interactive Media Management program
 
 The holidays are all about sharing, so my partner and I wanted our app to let users send their friends a sweet surprise. We based our concept on the "candygram" tradition, where friends and loved ones send each other messages attached to candy canes. Our secret messages would come attached to a delicious drink in a red-and-white striped cup. 
 
-<img src="/image_samples/starbucks/appflow.png" width="100%">
+<img src="/image_samples/starbucks/appflow.png" alt="App flow diagram for the Starbucks Candygram concept" width="100%">
 
 &nbsp;
 

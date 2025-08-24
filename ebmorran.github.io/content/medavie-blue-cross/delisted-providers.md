@@ -11,7 +11,7 @@ socialShare: false
 toc: false
 ---
 <div id="delisted-img-container" style="margin:auto; padding-bottom: 25px;">
-<img src="/image_samples/medavie/delisted-providers/description.png" style="margin: auto; width: 70%;">
+<img src="/image_samples/medavie/delisted-providers/description.png" alt="Screenshot describing the delisted provider filter" style="margin: auto; width: 70%;">
 </div>
 
 ## Request
@@ -42,25 +42,25 @@ While the designer suggested displaying labels on both active and delisted provi
 
 ### Display
 
-<img src="/image_samples/medavie/delisted-providers/brainstorming.jpg" style="margin: auto; width: 100%; padding-bottom:10px;">
+<img src="/image_samples/medavie/delisted-providers/brainstorming.jpg" alt="Whiteboard brainstorming options for delisted provider label" style="margin: auto; width: 100%; padding-bottom:10px;">
 
 When it came to displaying these providers in search, I identified three possible scenarios:
 1. Search does not return delisted providers
 2. Search returns both delisted and active providers
 3. Search only returns delisted providers.
 
-<img src="/image_samples/medavie/delisted-providers/draft-options.jpg" style="margin: auto; width: 100%; padding-bottom:10px;">
+<img src="/image_samples/medavie/delisted-providers/draft-options.jpg" alt="Draft options for delisted provider search filter" style="margin: auto; width: 100%; padding-bottom:10px;">
 
 Because delisted providers can't be claimed, we wanted to make sure that users were exposed to the explanation of "delisted provider" before they could toggle them on or off in the search results. Initially, the designer created an alert message that would appear in scenario 2, whenever a search contained delisted providers. My concern with an alert was that it could be intrusive, since most users don't want to see delisted providers. I suggested displaying a filter where both the description of "delisted provider" and the toggle button were collapsed by default, so that they would be exposed at the same time, but only if the user chose to investigate that option.
 
-<img src="/image_samples/medavie/delisted-providers/search-delisted-only.jpg" style="margin: auto; width: 70%; padding-bottom:10px;">
+<img src="/image_samples/medavie/delisted-providers/search-delisted-only.jpg" alt="Search results showing only delisted providers" style="margin: auto; width: 70%; padding-bottom:10px;">
 
 Since the delisted filter and search results are hidden by default, the previous experience would not work for scenario 3. We didn't want to bring the user to an empty search results page. Normally, when a search returns no results, an alert bottom sheet appears requesting the user try again. We repurposed this alert to let them know their search didn't match any active providers, and encourage them to search for something else.
 
-<img src="/image_samples/medavie/delisted-providers/description.png" style="margin: auto; width: 100%; padding-bottom:10px;">
+<img src="/image_samples/medavie/delisted-providers/description.png" alt="Expanded filter explaining delisted providers" style="margin: auto; width: 100%; padding-bottom:10px;">
 
 In search results and in the user's list of saved providers, delisted providers would be labeled clearly. On individual provider pages, a prominent alert would appear with a brief explanation that the provider is delisted.
 
-<img src="/image_samples/medavie/delisted-providers/final-flow.jpg" style="margin: auto; width: 100%; padding-bottom:10px;">
+<img src="/image_samples/medavie/delisted-providers/final-flow.jpg" alt="Final flow for delisted provider search" style="margin: auto; width: 100%; padding-bottom:10px;">
 
 We presented our solution to the stakeholders, and it was accepted. 

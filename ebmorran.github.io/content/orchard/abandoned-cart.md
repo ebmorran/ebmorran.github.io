@@ -18,16 +18,16 @@ toc: false
 
 ## Email 1
 
-<a href="/image_samples/orchard/abandoned-cart-1.png"><img src="/images/abandoned-cart-1-thumbnail.png" width="200"><br>
+<a href="/image_samples/orchard/abandoned-cart-1.png"><img src="/images/abandoned-cart-1-thumbnail.png" alt="Thumbnail of first abandoned cart email" width="200"><br>
 (Click to expand.)</a>
 
 
 ## Email 2
 
-<a href="/image_samples/orchard/abandoned-cart-2.png"><img src="/images/abandoned-cart-2-thumbnail.png" width="200"><br>
+<a href="/image_samples/orchard/abandoned-cart-2.png"><img src="/images/abandoned-cart-2-thumbnail.png" alt="Thumbnail of second abandoned cart email" width="200"><br>
 (Click to expand.)</a>
 
 ## Email 3
 
-<a href="/image_samples/orchard/abandoned-cart-3.png"><img src="/images/abandoned-cart-3-thumbnail.png" width="200"><br>
+<a href="/image_samples/orchard/abandoned-cart-3.png"><img src="/images/abandoned-cart-3-thumbnail.png" alt="Thumbnail of third abandoned cart email" width="200"><br>
 (Click to expand.)</a>
