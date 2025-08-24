@@ -24,11 +24,11 @@ markup:
 
 Menus:
   main:
-#    - identifier: about
-#      name: About Me
-#      title: About Me
-#      url: /about
-#      weight: 2
+    - identifier: about
+      name: About me
+      title: About me
+      url: /about
+      weight: 2
     - identifier: contact
       name: Contact
       title: Contact
@@ -139,7 +139,7 @@ params:
     intro: ""
     title: "Elizabeth Morran"
     subtitle: "Designing confidence and trust"
-    content: "Confidence comes from clarity. I empower users through end-to-end experiences with scalable content that reduces uncertainty and builds trust. Driven by user research and deep product understanding, I work with cross-functional teams to simplify decision points and help users move forward."
+    content: "Confidence comes from clarity. I empower users through end-to-end journeys with scalable content that reduces uncertainty and builds trust. Driven by user research and deep product understanding, I work with cross-functional teams to simplify decision points and help users move forward."
     image: /images/me.jpeg
     # Make title & subtitle font slightly smaller.
     bottomImage:
