@@ -22,7 +22,7 @@ Social engagement is directly linked to wellbeing in old age, but seniors with d
 
 ## Concept
 
-<img src="/image_samples/justgo/outcomes.png" width="90%">
+<img src="/image_samples/justgo/outcomes.png" alt="Infographic showing outcomes for justGO riders" width="90%">
 
 &nbsp;
 
@@ -35,13 +35,13 @@ The goal of the app is to help seniors age in place and maintain independence by
 
 ### User flow
 
-<img src="/image_samples/justgo/user-flow.png" width="90%">
+<img src="/image_samples/justgo/user-flow.png" alt="User flow diagram for joining a justGO carpool" width="90%">
 
 &nbsp;
 
 ### Onboarding screens
 
-<img src="/image_samples/justgo/onboarding.png" width="90%">
+<img src="/image_samples/justgo/onboarding.png" alt="Onboarding screens introducing the justGO app" width="90%">
 
 &nbsp;
 
@@ -49,10 +49,10 @@ Our onboarding screens clearly explain the concept of the app and let users know
 
 ### App screens
 
-<img src="/image_samples/justgo/browse-select.png" width="90%">
+<img src="/image_samples/justgo/browse-select.png" alt="Screens for browsing and selecting rides" width="90%">
 
 &nbsp;
 
 The app makes it easy to browse nearby events. Pricing information includes the word "ride" as a reminder that only the ride is included. Information on buying tickets, if required, would be included on each event details screen.
 
-<img src="/image_samples/justgo/review-go.png" width="90%">
+<img src="/image_samples/justgo/review-go.png" alt="Review trip and go screens of the app" width="90%">
