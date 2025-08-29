@@ -81,7 +81,7 @@
     max-width: 100%;
     display: block;
     overflow-x: auto;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 #single .page-content table > tr {
@@ -99,19 +99,20 @@
     padding: 0.5rem !important;
     border: 1px solid var(--secondary-color);
     background-color: var(--secondary-color) !important;
-    opacity: 0.9;
-    line-height: 0;
+    /* opacity: 0.9; */
     vertical-align: bottom;
 }
 
-#single .page-content table img {
-    opacity: 1 !important;
+#single .page-content table td img {
+    width: 100%;
+    height: auto;
     display: block;
 }
 
 #single .page-content table > thead > tr {
     background-color: var(--secondary-color) !important;
     color: var(--secondary-color) !important;
+    opacity: 0.9;
 }
 
 /* code */
