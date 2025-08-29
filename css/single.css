@@ -102,6 +102,10 @@
     opacity: 0.9;
 }
 
+#single .page-content table img {
+    opacity: 1 !important;
+}
+
 #single .page-content table > thead > tr {
     background-color: var(--secondary-color) !important;
     color: var(--secondary-color) !important;
