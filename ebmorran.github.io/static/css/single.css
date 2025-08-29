@@ -100,10 +100,13 @@
     border: 1px solid var(--secondary-color);
     background-color: var(--secondary-color) !important;
     opacity: 0.9;
+    line-height: 0;
+    vertical-align: bottom;
 }
 
 #single .page-content table img {
     opacity: 1 !important;
+    display: block;
 }
 
 #single .page-content table > thead > tr {
