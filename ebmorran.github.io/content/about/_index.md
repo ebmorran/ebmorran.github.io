@@ -3,13 +3,13 @@ title: "About me"
 date: 2025-08-01T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
-image: /images/me.jpeg
+image: /images/me_new.jpg
 description: "My bio"
 summary: "My bio"               
 socialShare: false
 badges: false  
-toc: false
 ---
+
 My name is Elizabeth Morran. Located in Toronto, I've been writing web content for over seven years and designing UX content for over three. Here's a little about me and the way I work.
 
 ## Not *just* a writer...
