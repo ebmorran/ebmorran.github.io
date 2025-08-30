@@ -107,14 +107,13 @@ params:
     primaryColor: "#b11226"
     secondaryColor: 
  
-
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor:
+      secondaryTextColor:
+      backgroundColor:
+      secondaryBackgroundColor:
+      primaryColor: "#b11226"
+      secondaryColor:
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -143,7 +142,7 @@ params:
     subtitle: "Designing confidence and trust"
     content: "I help users move forward by transforming complex information into confident action. My work focuses on streamlining decision points, reducing hesitation and earning trust at every step. Partnering closely with design, product and engineering, I shape experiences that deliver actionable insight where it's needed most."
 
-    image: /images/me.jpeg
+    image: /images/me_new.jpg
     # Make title & subtitle font slightly smaller.
     bottomImage:
       enable: false
@@ -193,8 +192,8 @@ params:
         content: "Reduced drop-offs during ID verification by introducing a system feedback framework that improved predictability and trust."
         image: "/images/passport-photo.jpg"
         url: /cibc/newcomer-account/
-      - title: Advisor Connect user study
-        content: "A user study to discover advisors' daily needs and realign their portal at Medavie Blue Cross."
+      - title: Designing a portal that works the way advisors do
+        content: "Our research uncovered advisors' true mental models, shaping a portal that cut friction and accelerated decision-making."
         image: /images/advisor-portal-screenshot.png
         url: /medavie-blue-cross/advisor-connect-research/
 

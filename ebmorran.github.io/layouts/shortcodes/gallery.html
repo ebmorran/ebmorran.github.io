@@ -1,0 +1,31 @@
+{{- $id := .Get "id" | default (printf "g-%d" now.Unix) -}}
+{{- $from := .Get "from" | default "images" -}}
+{{- $imgs := (index .Page.Params $from) | default (slice) -}}
+
+<div class="pswp-grid pswp-gallery" id="{{ $id }}">
+  {{- range $i, $it := $imgs -}}
+    {{- $src := ($it.src | safeURL) -}}
+    {{- $thumb := (or $it.thumb $it.src) | safeURL -}}
+    {{- $w := $it.w -}}
+    {{- $h := $it.h -}}
+    {{- $alt := (or $it.alt $it.caption) -}}
+    <a href="{{ $src }}"
+       {{- if and $w $h -}} data-pswp-width="{{ $w }}" data-pswp-height="{{ $h }}" data-cropped="true"{{- end -}}>
+      <img src="{{ $thumb }}" alt="{{ $alt }}">
+      {{- with $it.caption -}}<div class="pswp-caption">{{ . }}</div>{{- end -}}
+    </a>
+  {{- end -}}
+</div>
+
+<script>
+(function(){
+  const el = document.querySelector('#{{ $id }}');
+  if (!el || !window.PhotoSwipeLightbox) return;
+  const lb = new PhotoSwipeLightbox({
+    gallery: '#{{ $id }}',
+    children: 'a',
+    pswpModule: window.PhotoSwipe
+  });
+  lb.init();
+})();
+</script>

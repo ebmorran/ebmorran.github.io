@@ -98,7 +98,7 @@
         </div>
       </div>
       <div class="page-content p-3">
-      <span style="font-size:1.3rem;"><a href='{{ printf "/%s/" .Section }}'>◀ Back to <span style="font-weight:bold;">{{ with .GetPage (printf "/%s" .Section) }}{{ .Title }}{{ end }}</span></a>
+      <span style="font-size:1.3rem;"><a href='{{ printf "/%s/" .Section }}'>◀&nbsp;&nbsp;<span class="homelink">Back to <span style="font-weight:bold;">{{ with .GetPage (printf "/%s" .Section) }}{{ .Title }}{{ end }}</span></span></a>
       </span>
       </div>
     </div>

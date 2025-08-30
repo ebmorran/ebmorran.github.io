@@ -30,6 +30,18 @@
     color: var(--primary-color) !important;
 }
 
+/* text inside the link */
+#single .page-content a .homelink,
+#single .page-content a .homelink:link,
+#single .page-content a .homelink:visited {
+  color: var(--text-secondary-color) !important;     /* “Back to …” uses --textColor */
+}
+
+/* ensure nested spans inherit that color */
+#single .page-content a .homelink * {
+  color: inherit;
+}
+
 #single .page-content a::after {
     content: "";
     display: block;
@@ -47,9 +59,30 @@
 
 #single .page-content h1, #single .page-content h2, #single .page-content h3, #single .page-content h4, #single .page-content h5, #single .page-content h6 {
     color: var(--text-color) !important;
-    margin-bottom: 0.7em;
     opacity: 0.9;
 }
+#single .page-content h1 { margin-top: 2.5rem; margin-bottom: 1.2rem; }
+#single .page-content h2 { margin-top: 1.5rem; margin-bottom: 1rem; }
+#single .page-content h3 { margin-top: 0.8rem; margin-bottom: 0.6rem; }
+
+/* Clearer step-down between H1 / H2 / H3 in page content */
+#single .page-content h1 {               /* section H1s */
+  font-size: clamp(1.8rem, 3.2vw, 2.2rem) !important;
+  line-height: 1.25;
+}
+
+#single .page-content h2 {               /* smaller than before */
+  font-size: clamp(1.35rem, 2.2vw, 1.6rem) !important;  /* ~22–25px */
+  line-height: 1.35;
+  opacity:0.7 !important;
+}
+
+#single .page-content h3 {               /* visibly smaller than H2 */
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem) !important; /* ~18–21px */
+  line-height: 1.45;
+  opacity:0.6 !important;
+}
+
 
 #single .page-content blockquote {
     padding: 20px 30px;
@@ -70,6 +103,15 @@
     margin-left: auto;  /* Auto margin for horizontal centering */
     margin-right: auto; /* Auto margin for horizontal centering */
     max-width: 100%;    /* Ensures the image does not overflow its container */
+}
+
+#single .page-content .image-caption {
+    display:block;
+    margin:auto;
+    text-align:center;
+    font-size:1.05rem;
+    font-style:italic;opacity:.9;
+    min-height:1.4em;
 }
 
 /* table */
@@ -269,8 +311,14 @@
     color: var(--text-color);
 }
 
+#single aside.toc .toc-content > ol {
+  display: grid;        /* or: flex; flex-direction: column; */
+  row-gap: .6rem;       /* spacing between direct child <li> only */
+  padding-top: .6rem;   /* if you also want space before the first item */
+}
+
 #single aside.toc .toc-content ol, #single aside.toc .toc-content ul {
-    margin-bottom: 1em;
+/*    margin-bottom: 1em;*/
     padding-left: 1.5em;
     list-style: decimal;
     opacity: 0.9;

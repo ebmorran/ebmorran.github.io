@@ -1,0 +1,23 @@
+{{- $id := .Get "id" | default (printf "ss-%d" now.Unix) -}}
+{{- $from := .Get "from" | default "images" -}}
+{{- $imgs := (index .Page.Params $from) | default (slice) -}}
+{{- $h := .Get "height" | default "70vh" -}}
+
+<div class="ux-slideshow" id="{{ $id }}" style="--slide-h: {{ $h }}">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      {{- range $i, $it := $imgs -}}
+        {{- $src := ($it.src | safeURL) -}}
+        {{- $alt := (or $it.alt $it.caption) -}}
+        {{- $cap := (or $it.caption "" ) | plainify -}}
+        <div class="swiper-slide" data-caption="{{ $cap }}">
+          <img src="{{ $src }}" alt="{{ $alt }}" loading="lazy">
+        </div>
+      {{- end -}}
+    </div>
+    <div class="swiper-button-prev" role="button" aria-label="Previous slide"></div>
+    <div class="swiper-button-next" role="button" aria-label="Next slide"></div>
+    <div class="swiper-pagination" aria-label="Slide pagination"></div>
+  </div>
+  <div class="ux-caption" aria-live="polite"></div>
+</div>

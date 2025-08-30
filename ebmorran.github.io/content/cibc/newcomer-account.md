@@ -14,7 +14,7 @@ badges:
           - "UX strategy"
           - "Onboarding flows"
           - "Stakeholder management"    
-toc: false
+toc: true
 ---
 **Role:** Content Designer     
 **Project:** Adding manual identity verification to onboarding flow for newcomer banking product     

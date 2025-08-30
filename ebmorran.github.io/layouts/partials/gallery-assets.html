@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="https://unpkg.com/photoswipe@5/dist/photoswipe.css">
+
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+  import PhotoSwipe from 'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js';
+  window.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.pswp-gallery').forEach(gal => {
+      const lb = new PhotoSwipeLightbox({ gallery: gal, children: 'a', pswpModule: PhotoSwipe });
+      lb.init();
+    });
+  });
+</script>
+
+<style>
+  /* Thumbnail grid */
+  .pswp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+  .pswp-grid a{display:block;border-radius:12px;overflow:hidden}
+  .pswp-grid img{display:block;width:100%;height:auto}
+  .pswp-caption{font-size:.9rem;opacity:.8;margin-top:.4rem}
+</style>
