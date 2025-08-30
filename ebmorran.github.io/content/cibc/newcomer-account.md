@@ -1,75 +1,60 @@
 ---
-title: "Status visibility during manual ID review"
+title: "Building transparency into newcomer onboarding"
 date: 2025-08-01T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
 image: /images/passport-photo.jpg
 disableMainImg: true
-description: "Improving communication during manual identity verification"
-summary: "Improving communication during manual identity verification."               
+description: "Reduced user drop-offs during ID verification by introducing a clear feedback framework that improved predictability and trust."
+summary: "Reduced user drop-offs during ID verification by introducing a clear feedback framework that improved predictability and trust."               
 socialShare: false
 badges:
           - "Design thinking"
           - "Content design"    
           - "UX strategy"
+          - "Onboarding flows"
           - "Stakeholder management"    
-toc: true
+toc: false
 ---
-&nbsp;  
+**Role:** Content Designer     
+**Project:** Adding manual identity verification to onboarding flow for newcomer banking product     
+**Timeline:** July 2025 - August 2025
 
-## Context
-In a banking product for newcomers to Canada, we transitioned from automatic to manual identity verification in our secure portal. As the content designer assigned to this project, I worked with a UX designer to create the new upload flow for the user's ID documents.
+## An upload process with little feedback or guidance
+When CIBC shifted from automatic to manual identity verification in a newcomer banking product, I led content design for the project that added document upload to the onboarding flow. The original requirements included almost no visible feedback:
+* After upload, the user wasn't informed they'd have to wait for manual document review to continue.
+* Approval and rejection were silent: users had to deduce what happened by scanning down the page.
 
-<img src="/image_samples/cibc/newcomer/user-flow.png" style="margin: auto; width: 100%; padding-bottom:10px;">
+Instead, I proposed a messaging framework to create a clear, predictable path through document verification, reducing visual searching and decision fatigue, supporting acccessibility and building trust during a sensitive onboarding process. 
 
-The verification process:
-* The user uploads their documents. They can't proceed to the next step (funding the account) until manual review is complete. 
-* Upon review, the user gets an email notification prompting them to log in to the secure portal to see if the documents were approved. 
-* If the documents couldn't be verified, they'll have a second chance to upload before the system forces them to confirm their identity in person.
-* If the documents are approved, they can fund the account.
+## Guiding users forward with clear status messages
+| Flow step | Before | After |
+| ----------- | ----------- | ----------- |
+| **Immediately after document upload**  | <img src="/image_samples/cibc/newcomer/before-1-after-upload.png" alt="Before state 1" style="margin: auto; width: 100%; padding-bottom:10px;">| <img src="/image_samples/cibc/newcomer/message-1.png" alt="Message 1" style="margin: auto; width: 100%; padding-bottom:10px;"> |
+| | *Upload is complete, but what now? The user doesn't know why they can't proceed.* | *Clear explanation and next steps.* |
+| **Documents verified** | <img src="/image_samples/cibc/newcomer/before-2-upload-succeeded.png" alt="Before state 2" style="margin: auto; width: 100%; padding-bottom:10px;"> | <img src="/image_samples/cibc/newcomer/message-2.png" alt="Message 2" style="margin: auto; width: 100%; padding-bottom:10px;"> |
+|The user receives a notification email with a link to view an update in the portal. | *The next step (Download wire transfer instructions) silently became available, but it's not obvious to look there.* | *The user immediately knows that their ID was verified and which action to choose next.* |
+| **Documents not verified** | <img src="/image_samples/cibc/newcomer/before-3-upload-failed.png" alt="Before state 3" style="margin: auto; width: 100%; padding-bottom:10px;"> | <img src="/image_samples/cibc/newcomer/message-3.png" alt="Message 3" style="margin: auto; width: 100%; padding-bottom:10px;"> |
+| The user receives a notification email with a link to view an update in the portal. | *Though the update is explicit, it's buried as a status message on a button. In the constrained space, we couldn't mention the fallback ID option, increasing potential anxiety.* | *The update is visually obvious. It reassures the user they can always provide their documents in person, reducing tension and frustration.* |
+{.compare-table}
 
-## The problem
-<img src="/image_samples/cibc/newcomer/base-screen.png" style="margin: auto; width: 50%; padding-bottom:10px;">
+## Driving alignment
 
-The BA's requirements placed the document review status under the "Upload your passport..." button. At each step in the process, finding the next step required visual searching and reasoning, instead of being clearly called out by the UI. 
+Because feedback messages weren’t part of the original scope, I partnered with design and product to drive alignment and secure buy-in for the new framework:
+* Reframed the problem around user trust, accessibility, and business outcomes.
+* Illustrated how missing feedback would increase support volume and onboarding drop-offs.
+* Secured consensus despite initial engineering pushback, ensuring full implementation.
 
-* **After upload:** The status under "Upload your passport..." changed to "Completed". There was no success message and no sign that their documents were under review. They were blocked from the next step without explanation.
-* **If the documents were rejected:** The status under "Upload your passport..." changed to ask the user to retry, but space constraints prevented us from letting the user what would happen if their documents were rejected again.
+## Outcomes: transparency, accessibility and trust
 
+The original approach carried significant business and UX risks:
+ * Lower conversion: users might abandon the process when blocked without explanation.
+ * Higher support costs: missing feedback would drive calls to the support line.
+ * Erosion of trust: newcomers, already navigating an unfamiliar banking system, would feel uncertain and unsupported.
+ * Compliance failure: the flow failed WCAG 3.2.2, which requires that state changes be announced to users.
 
-Lack of feedback during a high-stakes task undermines trust and increases drop-off, support calls, and user frustration. It also fails WCAG's success criterion 3.2.2 (on input: change), which requires that users are informed of state changes.
-
-## My contribution
-I proposed three contextual banner messages, with corresponding statuses under "Upload your passport and immigration document."
-
-### After upload
-<img src="/image_samples/cibc/newcomer/message-1.png" style="margin: auto; width: 50%; padding-bottom:10px;">
-
-The user sees an information banner: "We received your documents. You'll get an email when we're done reviewing them." The status under "Upload your passport and immigration document" updates to "Under review," instead of "Completed," reinforcing the banner message. 
-
-The user is now aware of:
-* What happened to their documents
-* Why they can't proceed right now, and
-* What will happen next. 
-
-### Documents approved
-<img src="/image_samples/cibc/newcomer/message-2.png" style="margin: auto; width: 50%; padding-bottom:10px;">
-
-The user sees a success banner: "We verified your documents and it's time to make a one-time wire transfer to your new account. Select 'Download wire transfer instructions' to continue." As in the original requirements, the "Upload your passport" status changes to "Completed on \[date\]," and the "Download wire transfer instructions" status changes to "Available." 
-
-The user does not have to hunt for information: they know exactly where to look to proceed.
-
-### Documents rejected
-<img src="/image_samples/cibc/newcomer/message-3.png" style="margin: auto; width: 50%; padding-bottom:10px;">
-
-The user sees a warning-style banner: "We couldn't verify your documents. Please upload your passport and immigration document again to continue your account setup. If we still can't verify your identity, you can show us your documents at a CIBC Banking Centre when you arrive in Canada."
-
-The user doesn't have to search down the action list to know what happened to their documents. They are also clearly informed of next steps and how to recover from further issues:
-* This is their last chance to upload the documents.
-* If the next document upload fails, they can still verify their identity in person instead of online.
-
-## Alignment and outcome
-
-The developers on the team were reluctant to make these change, seeing the existing status indicators as sufficient. But I strongly advocated for this solution, asking the team to put themselves into the shoes of a newcomer who's unfamiliar with Canadian banking practices and culture, afraid of making mistakes in a bureaucratic process, and may have any age, education level or level of familiarity with technology. They would need clear instructions, reassurance and predictable steps. 
-
-The product owner agreed with my reasoning, and the team implemented all three messages. This improved transparency, reduced confusion, and created a more supportive experience during a sensitive step in the immigration process.
+By introducing a clear, layered feedback framework, my redesigned experience:
+* Increased user confidence during a sensitive onboarding step.
+* Reduced frustration and lowered support burden.
+* Ensured accessibility compliance while supporting a broader range of user needs and English proficiency levels.
+* Aimed to increase onboarding completion by explaining blockers and surfacing next steps.
