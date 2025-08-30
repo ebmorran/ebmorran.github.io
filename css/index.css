@@ -487,7 +487,7 @@ header .navbar {
 
 #portfolio .card h5 {
     color: var(--text-color) !important;
-    opacity: 0.9;
+    opacity: 0.56;
 }
 
 #portfolio .card:hover {

@@ -158,7 +158,7 @@
 
 #single .page-content table > thead > tr > th {
     padding: 0.5rem !important;
-    background-color: var(--primary-color) !important;
+    background-color: var(--text-color) !important;
     color: var(--secondary-color) !important;
     border: 1px solid var(--secondary-color);
     opacity: 0.9;
