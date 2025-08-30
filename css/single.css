@@ -73,8 +73,9 @@
 }
 
 /* table */
-#single .page-content table {
+/* #single .page-content table {
     width: auto;
+    table-layout: fixed !important;
     border-radius: 5px;
     padding: 0.1rem;
     margin-bottom: 1.2em;
@@ -82,8 +83,33 @@
     display: block;
     overflow-x: auto;
     /* opacity: 0.8; */
-}
+/*}*/
+ #single .page-content table {
+     width: 100%;                 /* take full container width */
+     /*table-layout: fixed;*/         /* equal column math now works */
+     border-collapse: collapse;   /* avoids border/padding surprises */
+     border-radius: 5px;
+     padding: 0.1rem;
+     margin-bottom: 1.2em;
+     max-width: 100%;
+     overflow-x: auto;            /* keep horizontal scroll on small screens */
+ }
 
+ /* make the two image columns split the space evenly */
+ /*#single .page-content table tbody tr > *:nth-child(2),
+ #single .page-content table tbody tr > *:nth-child(3) {
+     width: 50%;
+     vertical-align: top;
+ }*/
+
+/* text column can wrap; don't let it fix the table width */
+/* #single .page-content table tbody tr > *:first-child {
+     width: 1%;
+     min-width: 0;
+     white-space: normal;
+     vertical-align: top;
+ }
+*/
 #single .page-content table > tr {
     height: 40px !important;
 }
@@ -114,6 +140,38 @@
     color: var(--secondary-color) !important;
     opacity: 0.9;
 }
+
+/* comparison table */ 
+/* Scope styles ONLY to the .compare-table class */
+#single .page-content table.compare-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-bottom: 1.2em;
+}
+
+/* First column: fixed at 20% */
+#single .page-content table.compare-table tr > *:first-child {
+    width: 20% !important;
+    vertical-align: bottom;
+    white-space: normal;
+    word-break: normal;
+}
+
+/* Second and third columns split remaining 80% */
+#single .page-content table.compare-table tr > *:nth-child(2),
+#single .page-content table.compare-table tr > *:nth-child(3) {
+    width: 40% !important;
+    vertical-align: top;
+}
+
+/* Make images responsive */
+#single .page-content table.compare-table td img {
+    width: 100% !important;
+    height: auto;
+    display: block;
+}
+
 
 /* code */
 
