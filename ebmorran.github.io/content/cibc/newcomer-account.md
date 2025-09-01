@@ -25,7 +25,7 @@ When CIBC shifted from automatic to manual identity verification in a newcomer b
 * After upload, the user wasn't informed they'd have to wait for manual document review to continue.
 * Approval and rejection were silent: users had to deduce what happened by scanning down the page.
 
-Instead, I proposed a messaging framework to create a clear, predictable path through document verification, reducing visual searching and decision fatigue, supporting acccessibility and building trust during a sensitive onboarding process. 
+Instead, I proposed a messaging framework to create a clear, predictable path through document verification, reducing visual searching and decision fatigue, supporting accessibility and building trust during a sensitive onboarding process. 
 
 ## Guiding users forward with clear status messages
 | Flow step | Before | After |

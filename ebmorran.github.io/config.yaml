@@ -53,18 +53,12 @@ Menus:
       url: /medavie-blue-cross
       parent: portfolio
       weight: 2
-    - identifier: orchard
-      title: Orchard
-      name: Orchard
-      url: /orchard
-      parent: portfolio
-      weight: 3
     - identifier: freelance
       title: Freelance & Student
       name: Freelance & Student
       url: /freelance
       parent: portfolio
-      weight: 4
+      weight: 3
 
 params:
   title: "Elizabeth Morran"
@@ -175,10 +169,6 @@ params:
         image: /images/logos/mbc-logo-en.png
       - title: 
         content: 
-        url: /orchard
-        image: /images/logos/orchard-logo.png
-      - title: 
-        content: 
         url: /freelance
         image: /images/logos/freelance.png
 
@@ -191,11 +181,18 @@ params:
       - title: Building transparency into newcomer onboarding
         content: "Reduced drop-offs during ID verification by introducing a system feedback framework that improved predictability and trust."
         image: "/images/passport-photo.jpg"
+        company: "CIBC"
         url: /cibc/newcomer-account/
       - title: Designing a portal that works the way advisors do
         content: "Our research uncovered advisors' true mental models, shaping a portal that cut friction and accelerated decision-making."
         image: /images/advisor-portal-screenshot.png
+        company: "Medavie Blue Cross"
         url: /medavie-blue-cross/advisor-connect-research/
+      - title: Including delisted providers without confusion
+        content: "How I used progressive disclosure to navigate adding non-covered providers to our search tool without confusing our members."
+        company: "Medavie Blue Cross"
+        image: /images/map-sample.png
+        url: /medavie-blue-cross/delisted-providers/
 
         
   #Contact

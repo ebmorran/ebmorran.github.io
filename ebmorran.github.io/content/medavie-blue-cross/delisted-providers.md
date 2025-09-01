@@ -1,12 +1,13 @@
 ---
-title: "Delisted providers in search"
-date: 2022-02-10T22:53:58+05:30
+title: "Including delisted providers without confusion"
+date: 2024-02-10T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
 image: /images/map-sample.png
 disableMainImg: true
 description: 
-summary: "An update to our mobile provider search, adding a filter for delisted providers."           
+badges: "Medavie Blue Cross"
+summary: "How I used progressive disclosure to navigate adding non-covered providers to our search tool without confusing our members."           
 socialShare: false
 toc: false
 ---

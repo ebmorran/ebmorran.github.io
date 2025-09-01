@@ -1,6 +1,6 @@
 ---
 title: "Designing a portal that works the way advisors do"
-date: 2022-02-10T22:53:58+05:30
+date: 2024-06-10T22:53:58+05:30
 draft: false
 author: "Elizabeth Morran"
 image: /images/advisor-portal-screenshot.png
